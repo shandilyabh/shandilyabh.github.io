@@ -146,8 +146,8 @@ export default function App() {
             { label: "LinkedIn", href: "https://linkedin.com/in/shandilyabh" },
             { label: "X", href: "https://x.com/shandilyabh" },
             { label: "GitHub", href: "https://github.com/shandilyabh" },
-            { label: "Ster", href: RECENT_POST.substackUrl },
-            { label: "Resume", href: "https://x.com/shandilyabh" }
+            { label: "Ster", href: "https://shandilyabh.substack.com" },
+            // { label: "Resume", href: "https://x.com/shandilyabh" }
           ].map((l) => (
             <a
               key={l.label}
