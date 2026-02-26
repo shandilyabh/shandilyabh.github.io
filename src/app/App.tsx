@@ -1,3 +1,5 @@
+import imageJpg from './image.jpg';
+
 const SERIF = "'EB Garamond', Georgia, 'Times New Roman', serif";
 
 const TEXT = "#1c1b18";
@@ -377,7 +379,7 @@ export default function App() {
             </div>
 
             <img
-              src="/src/app/image.jpg"
+              src={imageJpg}
               alt="Substack Post"
               className="w-full h-auto mb-5"
               style={{ borderRadius: "2px" }}
