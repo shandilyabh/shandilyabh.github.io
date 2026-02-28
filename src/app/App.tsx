@@ -1,11 +1,15 @@
+import { useTheme } from 'next-themes';
+import { Sun, Moon } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import imageJpg from './image.jpg';
 
 const SERIF = "'EB Garamond', Georgia, 'Times New Roman', serif";
 
-const TEXT = "#1c1b18";
-const MUTED = "#7a7870";
-const RULE = "#ddd9ce";
-const BG = "#f9f8f5";
+const TEXT = "var(--site-text)";
+const MUTED = "var(--site-muted)";
+const RULE = "var(--site-rule)";
+const BG = "var(--site-bg)";
+const FOOTNOTE = "var(--site-footnote)";
 
 const rule: React.CSSProperties = {
   border: "none",
@@ -97,12 +101,36 @@ const READING_2 = {
   href: "https://www.amazon.in/Titan-Life-John-Rockefeller-Sr/dp/1400077303/",
 };
 
+// ── Theme Toggle ────────────────────────────────────────────────────────
+
+function ThemeToggle() {
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return <div className="w-8 h-8" />;
+
+  return (
+    <button
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+      className="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors cursor-pointer"
+      aria-label="Toggle Theme"
+      style={{ color: TEXT }}
+    >
+      {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+    </button>
+  );
+}
+
 // ── Component ──────────────────────────────────────────────────────────
 
 export default function App() {
   return (
     <div
-      className="flex flex-col min-h-screen box-border p-6 md:px-[60px] md:pt-[44px] md:pb-[36px]"
+      className="flex flex-col min-h-screen box-border p-6 md:px-[60px] md:pt-[44px] md:pb-[36px] transition-colors duration-300"
       style={{
         backgroundColor: BG,
         fontFamily: SERIF,
@@ -111,21 +139,13 @@ export default function App() {
     >
       {/* ── Letterhead ───────────────────────────────────────────── */}
       <header
-        className="flex flex-col md:flex-row justify-between items-start md:items-end mb-6 md:mb-[18px] shrink-0 gap-4 md:gap-0"
+        className="flex flex-col md:flex-row justify-between items-start md:items-end mb-6 md:mb-[18px] shrink-0 gap-6 md:gap-0 relative"
       >
-        <div>
-          <div
-            style={{
-              fontFamily: SERIF,
-              fontSize: "21px",
-              fontWeight: 500,
-              letterSpacing: "0.01em",
-              color: TEXT,
-              marginBottom: "5px",
-            }}
-          >
-            Abhishek Shandilya
-          </div>
+        {/* Left: Tagline & Toggle */}
+        <div
+          className="order-2 md:order-1 flex items-center gap-2 w-full md:w-auto"
+        >
+          <ThemeToggle />
           <div
             style={{
               fontFamily: SERIF,
@@ -139,15 +159,33 @@ export default function App() {
           </div>
         </div>
 
+        {/* Center: Name */}
+        <div 
+          className="md:absolute md:left-1/2 md:-translate-x-1/2 md:bottom-[2px] order-1 md:order-2 w-full md:w-auto"
+        >
+          <div
+            style={{
+              fontFamily: SERIF,
+              fontSize: "28px",
+              fontWeight: 500,
+              letterSpacing: "0.01em",
+              color: TEXT,
+              textAlign: "center"
+            }}
+          >
+            Abhishek Shandilya
+          </div>
+        </div>
+
+        {/* Right: Nav Links */}
         <nav
-          className="flex flex-wrap gap-4 md:gap-[22px] items-center pb-[2px]"
+          className="flex flex-wrap gap-4 md:gap-[22px] items-center pb-[2px] w-full md:w-auto order-3 md:text-right justify-start md:justify-end"
         >
           {[
             { label: "LinkedIn", href: "https://linkedin.com/in/shandilyabh" },
             { label: "X", href: "https://x.com/shandilyabh" },
             { label: "GitHub", href: "https://github.com/shandilyabh" },
             { label: "Ster", href: "https://shandilyabh.substack.com" },
-            // { label: "Resume", href: "https://x.com/shandilyabh" }
           ].map((l) => (
             <a
               key={l.label}
@@ -160,10 +198,10 @@ export default function App() {
                 letterSpacing: "0.01em",
               }}
               onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = TEXT)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-text)")
               }
               onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = RULE)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-rule)")
               }
             >
               {l.label}
@@ -245,19 +283,14 @@ export default function App() {
               rel="noopener noreferrer"
               style={{ ...externalLink, fontSize: "13px" }}
               onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = TEXT)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-text)")
               }
               onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = RULE)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-rule)")
               }
             >
               Here →
             </a>
-
-            {/* <div style={sectionLabel}>Currently Reading</div> */}
-            {/* <hr style={rule} /> */}
-            
-            
 
             <div
               style={{
@@ -278,10 +311,10 @@ export default function App() {
               rel="noopener noreferrer"
               style={{ ...externalLink, fontSize: "13px" }}
               onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = TEXT)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-text)")
               }
               onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = RULE)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-rule)")
               }
             >
               Here →
@@ -381,7 +414,7 @@ export default function App() {
             <img
               src={imageJpg}
               alt="Substack Post"
-              className="w-full h-auto mb-5"
+              className="w-full h-auto mb-5 grayscale hover:grayscale-0 transition-all duration-500"
               style={{ borderRadius: "2px" }}
             />
 
@@ -389,7 +422,6 @@ export default function App() {
               style={{
                 ...bodyText,
                 fontSize: "14.5px",
-                color: "#4a4840",
                 margin: "0 0 20px 0",
                 lineHeight: 1.65,
               }}
@@ -407,10 +439,10 @@ export default function App() {
                 fontStyle: "italic",
               }}
               onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = TEXT)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-text)")
               }
               onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLElement).style.borderColor = RULE)
+                ((e.currentTarget as HTMLElement).style.borderColor = "var(--site-rule)")
               }
             >
               Read →
@@ -432,7 +464,7 @@ export default function App() {
               style={{
                 fontFamily: SERIF,
                 fontSize: "12px",
-                color: RULE,
+                color: FOOTNOTE,
                 letterSpacing: "0.04em",
               }}
             >
@@ -442,7 +474,7 @@ export default function App() {
               style={{
                 fontFamily: SERIF,
                 fontSize: "12px",
-                color: RULE,
+                color: FOOTNOTE,
                 letterSpacing: "0.04em",
               }}
             >

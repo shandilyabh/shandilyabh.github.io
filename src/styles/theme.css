@@ -39,6 +39,13 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* Website-specific colors (Light mode) */
+  --site-bg: #f9f8f5;
+  --site-text: #1c1b18;
+  --site-muted: #7a7870;
+  --site-rule: #ddd9ce;
+  --site-footnote: #7a7870; /* Using muted for readability instead of rule color */
 }
 
 .dark {
@@ -76,6 +83,13 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
+
+  /* Website-specific colors (Dark mode) */
+  --site-bg: #1a1917;
+  --site-text: #f0eee4;
+  --site-muted: #a3a092;
+  --site-rule: #3e3c35;
+  --site-footnote: #a3a092;
 }
 
 @theme inline {
@@ -105,6 +119,14 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+
+  /* Custom site colors */
+  --color-site-bg: var(--site-bg);
+  --color-site-text: var(--site-text);
+  --color-site-muted: var(--site-muted);
+  --color-site-rule: var(--site-rule);
+  --color-site-footnote: var(--site-footnote);
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
