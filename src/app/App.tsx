@@ -132,7 +132,7 @@ export default function App() {
     <div
       className="flex flex-col min-h-screen box-border p-6 md:px-[60px] md:pt-[44px] md:pb-[36px] transition-colors duration-300"
       style={{
-        backgroundColor: BG,
+        backgroundColor: "transparent",
         fontFamily: SERIF,
         color: TEXT,
       }}
