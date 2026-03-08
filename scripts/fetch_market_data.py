@@ -13,6 +13,7 @@ SUBSTACK_URL = "https://shandilyabh.substack.com/p/chaos-and-excess"
 TWITTER_RSS_URL = "https://rss.app/feeds/I7WhfJUj4rp4rtH1.xml"
 GITHUB_USERNAME = "shandilyabh"
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
+OUTPUT_PATH = "public/market-data.json"
 
 def get_github_level(level_str):
     mapping = {
@@ -25,13 +26,22 @@ def get_github_level(level_str):
     return mapping.get(level_str, 0)
 
 def fetch_market_data():
+    # Try to load existing data first to preserve article content if new fetch fails
+    existing_data = {}
+    if os.path.exists(OUTPUT_PATH):
+        try:
+            with open(OUTPUT_PATH, "r") as f:
+                existing_data = json.load(f)
+        except:
+            pass
+
     data = {
         "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "tickers": {},
         "charts": {},
-        "article": {"title": "", "content": "", "url": SUBSTACK_URL},
-        "tweet": {"text": "", "date": "", "url": ""},
-        "github": {"weeks": []}
+        "article": existing_data.get("article", {"title": "Chaos and Excess", "content": "", "url": SUBSTACK_URL}),
+        "tweet": existing_data.get("tweet", {"text": "", "date": "", "url": ""}),
+        "github": existing_data.get("github", {"weeks": []})
     }
 
     # 1. Fetch Ticker Data
@@ -67,30 +77,39 @@ def fetch_market_data():
         except Exception as e:
             print(f"Error fetching chart {symbol}: {e}")
 
-    # 3. Scrape Substack Article (Improved selector)
+    # 3. Scrape Substack Article (Preserve if fails)
     try:
-        response = requests.get(SUBSTACK_URL, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
+        print(f"Attempting to fetch article from {SUBSTACK_URL}...")
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+        response = requests.get(SUBSTACK_URL, headers=headers, timeout=15)
         if response.ok:
             soup = BeautifulSoup(response.text, 'html.parser')
-            title = soup.find('h1', class_='post-title')
-            data["article"]["title"] = title.get_text() if title else "Chaos and Excess"
-            
-            # Substack body content often lives in these classes
-            content_div = soup.find('div', class_='available-content') or soup.find('div', class_='body') or soup.find('div', class_='markup')
-            
+            content_div = soup.find('div', class_='available-content') or soup.find('div', class_='body')
             if content_div:
-                # Clean up redundant UI elements
-                for tag in content_div.find_all(['div', 'section', 'button'], class_=['button-wrapper', 'post-ufi', 'subscription-widget-wrap', 'subscribe-widget']):
+                title = soup.find('h1', class_='post-title')
+                data["article"]["title"] = title.get_text() if title else "Chaos and Excess"
+                
+                for tag in content_div.find_all(['div', 'section', 'button'], class_=['button-wrapper', 'post-ufi', 'subscription-widget-wrap']):
                     tag.decompose()
                 
-                # Extract clean HTML string
-                data["article"]["content"] = "".join([str(c) for c in content_div.contents])
+                new_content = "".join([str(c) for c in content_div.contents])
+                if len(new_content) > 100:
+                    data["article"]["content"] = new_content
+                    print("Article content updated.")
+                else:
+                    print("Scraped content too short, preserving existing.")
+            else:
+                print("Content div not found, preserving existing.")
+        else:
+            print(f"Response not OK ({response.status_code}), preserving existing.")
     except Exception as e:
-        print(f"Error scraping article: {e}")
+        print(f"Error scraping article: {e}, preserving existing.")
 
     # 4. Fetch Latest Tweet from RSS
     try:
-        response = requests.get(TWITTER_RSS_URL, headers={'User-Agent': 'Mozilla/5.0'})
+        response = requests.get(TWITTER_RSS_URL, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
         if response.ok:
             root = ET.fromstring(response.content)
             item = root.find('.//item')
@@ -149,7 +168,7 @@ def fetch_market_data():
     else:
         try:
             url = f"https://github.com/users/{GITHUB_USERNAME}/contributions"
-            res = requests.get(url)
+            res = requests.get(url, timeout=10)
             if res.ok:
                 soup = BeautifulSoup(res.text, 'html.parser')
                 rects = soup.find_all('td', class_='ContributionCalendar-day')
@@ -167,11 +186,10 @@ def fetch_market_data():
             print(f"Error fetching GitHub scraping: {e}")
 
     # 6. Save to JSON
-    output_path = "public/market-data.json"
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, "w") as f:
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"Data successfully saved to {output_path}")
+    print(f"Data successfully saved to {OUTPUT_PATH}")
 
 if __name__ == "__main__":
     fetch_market_data()

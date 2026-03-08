@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # Required to push changes back to the repo
   pages: write
   id-token: write
 
@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -37,8 +39,15 @@ jobs:
       - name: Fetch Market Data
         run: python scripts/fetch_market_data.py
         env:
-          GH_TOKEN: ${{ secrets.GH_MAP }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
+      - name: Commit and Push if data changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/market-data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update market data [skip ci]" && git push)
+        
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
