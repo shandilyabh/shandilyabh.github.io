@@ -41,12 +41,17 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Commit and Push if data changed
+      - name: Commit and Push Data
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add public/market-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update market data [skip ci]" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update market data [skip ci]"
+            git push origin main
+          else
+            echo "No changes to market-data.json"
+          fi
         
       - name: Setup Node
         uses: actions/setup-node@v4
