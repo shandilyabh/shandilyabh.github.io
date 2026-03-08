@@ -368,7 +368,8 @@ export default function App() {
       }
     }
 
-    fetch('/market-data.json').then(res => res.json()).then(data => setMarketData(data)).catch(err => console.error(err));
+    const fetchUrl = `/market-data.json?t=${new Date().getTime()}`;
+    fetch(fetchUrl).then(res => res.json()).then(data => setMarketData(data)).catch(err => console.error(err));
     return () => window.removeEventListener('resize', checkMobile);
   }, [setTheme]);
 

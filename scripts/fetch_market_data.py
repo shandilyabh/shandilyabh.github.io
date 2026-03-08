@@ -13,7 +13,7 @@ SUBSTACK_URL = "https://shandilyabh.substack.com/p/chaos-and-excess"
 TWITTER_RSS_URL = "https://rss.app/feeds/I7WhfJUj4rp4rtH1.xml"
 GITHUB_USERNAME = "shandilyabh"
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
-OUTPUT_PATH = "public/market-data.json"
+OUTPUT_PATH = "dist/market-data.json"
 
 def get_github_level(level_str):
     mapping = {
