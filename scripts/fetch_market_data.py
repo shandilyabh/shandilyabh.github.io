@@ -67,18 +67,24 @@ def fetch_market_data():
         except Exception as e:
             print(f"Error fetching chart {symbol}: {e}")
 
-    # 3. Scrape Substack Article
+    # 3. Scrape Substack Article (Improved selector)
     try:
-        response = requests.get(SUBSTACK_URL, headers={'User-Agent': 'Mozilla/5.0'})
+        response = requests.get(SUBSTACK_URL, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
         if response.ok:
             soup = BeautifulSoup(response.text, 'html.parser')
             title = soup.find('h1', class_='post-title')
             data["article"]["title"] = title.get_text() if title else "Chaos and Excess"
-            content_div = soup.find('div', class_='body') or soup.find('div', class_='available-content')
+            
+            # Substack body content often lives in these classes
+            content_div = soup.find('div', class_='available-content') or soup.find('div', class_='body') or soup.find('div', class_='markup')
+            
             if content_div:
-                for div in content_div.find_all(['div', 'section'], class_=['button-wrapper', 'post-ufi']):
-                    div.decompose()
-                data["article"]["content"] = str(content_div)
+                # Clean up redundant UI elements
+                for tag in content_div.find_all(['div', 'section', 'button'], class_=['button-wrapper', 'post-ufi', 'subscription-widget-wrap', 'subscribe-widget']):
+                    tag.decompose()
+                
+                # Extract clean HTML string
+                data["article"]["content"] = "".join([str(c) for c in content_div.contents])
     except Exception as e:
         print(f"Error scraping article: {e}")
 
@@ -101,7 +107,7 @@ def fetch_market_data():
     except Exception as e:
         print(f"Error fetching tweet RSS: {e}")
 
-    # 5. Fetch GitHub Contributions (GraphQL for Private + Orientation)
+    # 5. Fetch GitHub Contributions
     if GITHUB_TOKEN:
         try:
             query = """
@@ -128,7 +134,7 @@ def fetch_market_data():
                 json_data = res.json()
                 raw_weeks = json_data['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
                 processed_weeks = []
-                for week in raw_weeks[-18:]: # Fetch last 18 weeks
+                for week in raw_weeks[-18:]:
                     days = []
                     for day in week['contributionDays']:
                         days.append({
@@ -141,7 +147,6 @@ def fetch_market_data():
         except Exception as e:
             print(f"Error fetching GitHub GraphQL: {e}")
     else:
-        # Fallback to public scraping if no token
         try:
             url = f"https://github.com/users/{GITHUB_USERNAME}/contributions"
             res = requests.get(url)

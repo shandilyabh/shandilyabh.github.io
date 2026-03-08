@@ -558,9 +558,16 @@ export default function App() {
                   <div className="mb-6 p-3 border border-[#333] bg-black/40">
                     <div className="text-[9px] text-muted mb-1 uppercase tracking-widest">FILE: CHAOS_AND_EXCESS.TXT</div>
                     <h1 style={{ color: "#FFB100", fontSize: "18px", marginBottom: "4px", lineHeight: 1.2 }}>{marketData?.article?.title || RECENT_POST.title}</h1>
-                    <div className="text-muted text-[10px]">STATUS: LOADED / NOV 2025</div>
+                    <div className="text-muted text-[10px]">STATUS: {marketData?.article?.content && marketData.article.content.length > 100 ? "LOADED" : "UNAVAILABLE / FALLBACK MODE"} / NOV 2025</div>
                   </div>
-                  <div dangerouslySetInnerHTML={{ __html: marketData?.article?.content || "Loading content..." }} className="article-body" />
+                  <div 
+                    dangerouslySetInnerHTML={{ 
+                      __html: (marketData?.article?.content && marketData.article.content.length > 100) 
+                        ? marketData.article.content 
+                        : `<p>${RECENT_POST.excerpt}</p><p style="color: ${MUTED}; font-style: italic;">[Terminal Error: High-fidelity content currently restricted by source origin. Direct link recommended.]</p>`
+                    }} 
+                    className="article-body" 
+                  />
                 </div>
               </div>
             ) : (
