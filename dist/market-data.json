@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-03-08 12:00:00",
+  "tickers": {
+    "^BSESN": { "price": 72426.64, "change": -120.5, "percent_change": -0.17, "currency": "INR" },
+    "INR=X": { "price": 82.74, "change": 0.05, "percent_change": 0.06, "currency": "INR" },
+    "BTC-USD": { "price": 68420.15, "change": 1250.3, "percent_change": 1.86, "currency": "USD" },
+    "^GSPC": { "price": 5123.69, "change": 45.2, "percent_change": 0.89, "currency": "USD" },
+    "CL=F": { "price": 78.15, "change": -0.45, "percent_change": -0.57, "currency": "USD" },
+    "GC=F": { "price": 2160.4, "change": 15.2, "percent_change": 0.71, "currency": "USD" }
+  },
+  "charts": {
+    "^BSESN": [
+      { "time": "2026-03-01", "open": 72000, "high": 72500, "low": 71800, "close": 72300 },
+      { "time": "2026-03-02", "open": 72300, "high": 72600, "low": 72100, "close": 72500 },
+      { "time": "2026-03-03", "open": 72500, "high": 72800, "low": 72200, "close": 72400 },
+      { "time": "2026-03-04", "open": 72400, "high": 73000, "low": 72300, "close": 72800 },
+      { "time": "2026-03-05", "open": 72800, "high": 73200, "low": 72600, "close": 73100 },
+      { "time": "2026-03-06", "open": 73100, "high": 73150, "low": 72400, "close": 72426 }
+    ]
+  }
+}

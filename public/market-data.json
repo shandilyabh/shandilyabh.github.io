@@ -1,0 +1,1277 @@
+{
+  "last_updated": "2026-03-09 00:00:13",
+  "tickers": {
+    "^NSEI": {
+      "price": 24450.45,
+      "change": -287.0,
+      "percent_change": -1.16,
+      "currency": "INR"
+    },
+    "^GSPC": {
+      "price": 6740.02,
+      "change": -90.69,
+      "percent_change": -1.33,
+      "currency": "USD"
+    },
+    "^FTSE": {
+      "price": 10284.8,
+      "change": -129.14,
+      "percent_change": -1.24,
+      "currency": "GBP"
+    },
+    "INR=X": {
+      "price": 91.91,
+      "change": 0.17,
+      "percent_change": 0.19,
+      "currency": "INR"
+    },
+    "BTC-USD": {
+      "price": 66982.45,
+      "change": -285.25,
+      "percent_change": -0.42,
+      "currency": "USD"
+    },
+    "CL=F": {
+      "price": 90.9,
+      "change": 10.85,
+      "percent_change": 13.55,
+      "currency": "USD"
+    },
+    "GC=F": {
+      "price": 5158.7,
+      "change": 21.5,
+      "percent_change": 0.42,
+      "currency": "USD"
+    }
+  },
+  "charts": {
+    "^NSEI": [
+      {
+        "time": "2026-01-01",
+        "value": 26146.55078125
+      },
+      {
+        "time": "2026-01-02",
+        "value": 26328.55078125
+      },
+      {
+        "time": "2026-01-05",
+        "value": 26250.30078125
+      },
+      {
+        "time": "2026-01-06",
+        "value": 26178.69921875
+      },
+      {
+        "time": "2026-01-07",
+        "value": 26140.75
+      },
+      {
+        "time": "2026-01-08",
+        "value": 25876.849609375
+      },
+      {
+        "time": "2026-01-09",
+        "value": 25683.30078125
+      },
+      {
+        "time": "2026-01-12",
+        "value": 25790.25
+      },
+      {
+        "time": "2026-01-13",
+        "value": 25732.30078125
+      },
+      {
+        "time": "2026-01-14",
+        "value": 25665.599609375
+      },
+      {
+        "time": "2026-01-16",
+        "value": 25694.349609375
+      },
+      {
+        "time": "2026-01-19",
+        "value": 25585.5
+      },
+      {
+        "time": "2026-01-20",
+        "value": 25232.5
+      },
+      {
+        "time": "2026-01-21",
+        "value": 25157.5
+      },
+      {
+        "time": "2026-01-22",
+        "value": 25289.900390625
+      },
+      {
+        "time": "2026-01-23",
+        "value": 25048.650390625
+      },
+      {
+        "time": "2026-01-27",
+        "value": 25175.400390625
+      },
+      {
+        "time": "2026-01-28",
+        "value": 25342.75
+      },
+      {
+        "time": "2026-01-29",
+        "value": 25418.900390625
+      },
+      {
+        "time": "2026-01-30",
+        "value": 25320.650390625
+      },
+      {
+        "time": "2026-02-02",
+        "value": 25088.400390625
+      },
+      {
+        "time": "2026-02-03",
+        "value": 25727.55078125
+      },
+      {
+        "time": "2026-02-04",
+        "value": 25776.0
+      },
+      {
+        "time": "2026-02-05",
+        "value": 25642.80078125
+      },
+      {
+        "time": "2026-02-06",
+        "value": 25693.69921875
+      },
+      {
+        "time": "2026-02-09",
+        "value": 25867.30078125
+      },
+      {
+        "time": "2026-02-10",
+        "value": 25935.150390625
+      },
+      {
+        "time": "2026-02-11",
+        "value": 25953.849609375
+      },
+      {
+        "time": "2026-02-12",
+        "value": 25807.19921875
+      },
+      {
+        "time": "2026-02-13",
+        "value": 25471.099609375
+      },
+      {
+        "time": "2026-02-16",
+        "value": 25682.75
+      },
+      {
+        "time": "2026-02-17",
+        "value": 25725.400390625
+      },
+      {
+        "time": "2026-02-18",
+        "value": 25819.349609375
+      },
+      {
+        "time": "2026-02-19",
+        "value": 25454.349609375
+      },
+      {
+        "time": "2026-02-20",
+        "value": 25571.25
+      },
+      {
+        "time": "2026-02-23",
+        "value": 25713.0
+      },
+      {
+        "time": "2026-02-24",
+        "value": 25424.650390625
+      },
+      {
+        "time": "2026-02-25",
+        "value": 25482.5
+      },
+      {
+        "time": "2026-02-26",
+        "value": 25496.55078125
+      },
+      {
+        "time": "2026-02-27",
+        "value": 25178.650390625
+      },
+      {
+        "time": "2026-03-02",
+        "value": 24865.69921875
+      },
+      {
+        "time": "2026-03-04",
+        "value": 24480.5
+      },
+      {
+        "time": "2026-03-05",
+        "value": 24765.900390625
+      },
+      {
+        "time": "2026-03-06",
+        "value": 24450.44921875
+      }
+    ],
+    "^GSPC": [
+      {
+        "time": "2026-01-02",
+        "value": 6858.47021484375
+      },
+      {
+        "time": "2026-01-05",
+        "value": 6902.0498046875
+      },
+      {
+        "time": "2026-01-06",
+        "value": 6944.81982421875
+      },
+      {
+        "time": "2026-01-07",
+        "value": 6920.93017578125
+      },
+      {
+        "time": "2026-01-08",
+        "value": 6921.4599609375
+      },
+      {
+        "time": "2026-01-09",
+        "value": 6966.27978515625
+      },
+      {
+        "time": "2026-01-12",
+        "value": 6977.27001953125
+      },
+      {
+        "time": "2026-01-13",
+        "value": 6963.740234375
+      },
+      {
+        "time": "2026-01-14",
+        "value": 6926.60009765625
+      },
+      {
+        "time": "2026-01-15",
+        "value": 6944.47021484375
+      },
+      {
+        "time": "2026-01-16",
+        "value": 6940.009765625
+      },
+      {
+        "time": "2026-01-20",
+        "value": 6796.85986328125
+      },
+      {
+        "time": "2026-01-21",
+        "value": 6875.6201171875
+      },
+      {
+        "time": "2026-01-22",
+        "value": 6913.35009765625
+      },
+      {
+        "time": "2026-01-23",
+        "value": 6915.60986328125
+      },
+      {
+        "time": "2026-01-26",
+        "value": 6950.22998046875
+      },
+      {
+        "time": "2026-01-27",
+        "value": 6978.60009765625
+      },
+      {
+        "time": "2026-01-28",
+        "value": 6978.02978515625
+      },
+      {
+        "time": "2026-01-29",
+        "value": 6969.009765625
+      },
+      {
+        "time": "2026-01-30",
+        "value": 6939.02978515625
+      },
+      {
+        "time": "2026-02-02",
+        "value": 6976.43994140625
+      },
+      {
+        "time": "2026-02-03",
+        "value": 6917.81005859375
+      },
+      {
+        "time": "2026-02-04",
+        "value": 6882.72021484375
+      },
+      {
+        "time": "2026-02-05",
+        "value": 6798.39990234375
+      },
+      {
+        "time": "2026-02-06",
+        "value": 6932.2998046875
+      },
+      {
+        "time": "2026-02-09",
+        "value": 6964.81982421875
+      },
+      {
+        "time": "2026-02-10",
+        "value": 6941.81005859375
+      },
+      {
+        "time": "2026-02-11",
+        "value": 6941.47021484375
+      },
+      {
+        "time": "2026-02-12",
+        "value": 6832.759765625
+      },
+      {
+        "time": "2026-02-13",
+        "value": 6836.169921875
+      },
+      {
+        "time": "2026-02-17",
+        "value": 6843.22021484375
+      },
+      {
+        "time": "2026-02-18",
+        "value": 6881.31005859375
+      },
+      {
+        "time": "2026-02-19",
+        "value": 6861.89013671875
+      },
+      {
+        "time": "2026-02-20",
+        "value": 6909.509765625
+      },
+      {
+        "time": "2026-02-23",
+        "value": 6837.75
+      },
+      {
+        "time": "2026-02-24",
+        "value": 6890.06982421875
+      },
+      {
+        "time": "2026-02-25",
+        "value": 6946.1298828125
+      },
+      {
+        "time": "2026-02-26",
+        "value": 6908.85986328125
+      },
+      {
+        "time": "2026-02-27",
+        "value": 6878.8798828125
+      },
+      {
+        "time": "2026-03-02",
+        "value": 6881.6201171875
+      },
+      {
+        "time": "2026-03-03",
+        "value": 6816.6298828125
+      },
+      {
+        "time": "2026-03-04",
+        "value": 6869.5
+      },
+      {
+        "time": "2026-03-05",
+        "value": 6830.7099609375
+      },
+      {
+        "time": "2026-03-06",
+        "value": 6740.02001953125
+      }
+    ],
+    "^FTSE": [
+      {
+        "time": "2026-01-02",
+        "value": 9951.099609375
+      },
+      {
+        "time": "2026-01-05",
+        "value": 10004.599609375
+      },
+      {
+        "time": "2026-01-06",
+        "value": 10122.7001953125
+      },
+      {
+        "time": "2026-01-07",
+        "value": 10048.2001953125
+      },
+      {
+        "time": "2026-01-08",
+        "value": 10044.7001953125
+      },
+      {
+        "time": "2026-01-09",
+        "value": 10124.599609375
+      },
+      {
+        "time": "2026-01-12",
+        "value": 10140.7001953125
+      },
+      {
+        "time": "2026-01-13",
+        "value": 10137.400390625
+      },
+      {
+        "time": "2026-01-14",
+        "value": 10184.400390625
+      },
+      {
+        "time": "2026-01-15",
+        "value": 10238.900390625
+      },
+      {
+        "time": "2026-01-16",
+        "value": 10235.2998046875
+      },
+      {
+        "time": "2026-01-19",
+        "value": 10195.400390625
+      },
+      {
+        "time": "2026-01-20",
+        "value": 10126.7998046875
+      },
+      {
+        "time": "2026-01-21",
+        "value": 10138.099609375
+      },
+      {
+        "time": "2026-01-22",
+        "value": 10150.099609375
+      },
+      {
+        "time": "2026-01-23",
+        "value": 10143.400390625
+      },
+      {
+        "time": "2026-01-26",
+        "value": 10148.900390625
+      },
+      {
+        "time": "2026-01-27",
+        "value": 10207.7998046875
+      },
+      {
+        "time": "2026-01-28",
+        "value": 10154.400390625
+      },
+      {
+        "time": "2026-01-29",
+        "value": 10171.7998046875
+      },
+      {
+        "time": "2026-01-30",
+        "value": 10223.5
+      },
+      {
+        "time": "2026-02-02",
+        "value": 10341.599609375
+      },
+      {
+        "time": "2026-02-03",
+        "value": 10314.599609375
+      },
+      {
+        "time": "2026-02-04",
+        "value": 10402.2998046875
+      },
+      {
+        "time": "2026-02-05",
+        "value": 10309.2001953125
+      },
+      {
+        "time": "2026-02-06",
+        "value": 10369.7998046875
+      },
+      {
+        "time": "2026-02-09",
+        "value": 10386.2001953125
+      },
+      {
+        "time": "2026-02-10",
+        "value": 10353.7998046875
+      },
+      {
+        "time": "2026-02-11",
+        "value": 10472.099609375
+      },
+      {
+        "time": "2026-02-12",
+        "value": 10402.400390625
+      },
+      {
+        "time": "2026-02-13",
+        "value": 10446.400390625
+      },
+      {
+        "time": "2026-02-16",
+        "value": 10473.7001953125
+      },
+      {
+        "time": "2026-02-17",
+        "value": 10556.2001953125
+      },
+      {
+        "time": "2026-02-18",
+        "value": 10686.2001953125
+      },
+      {
+        "time": "2026-02-19",
+        "value": 10627.0
+      },
+      {
+        "time": "2026-02-20",
+        "value": 10686.900390625
+      },
+      {
+        "time": "2026-02-23",
+        "value": 10684.7001953125
+      },
+      {
+        "time": "2026-02-24",
+        "value": 10680.599609375
+      },
+      {
+        "time": "2026-02-25",
+        "value": 10806.400390625
+      },
+      {
+        "time": "2026-02-26",
+        "value": 10846.7001953125
+      },
+      {
+        "time": "2026-02-27",
+        "value": 10910.599609375
+      },
+      {
+        "time": "2026-03-02",
+        "value": 10780.099609375
+      },
+      {
+        "time": "2026-03-03",
+        "value": 10484.099609375
+      },
+      {
+        "time": "2026-03-04",
+        "value": 10567.7001953125
+      },
+      {
+        "time": "2026-03-05",
+        "value": 10413.900390625
+      },
+      {
+        "time": "2026-03-06",
+        "value": 10284.7998046875
+      }
+    ]
+  },
+  "article": {
+    "title": "Chaos and Excess",
+    "content": "<div class=\"body markup\" dir=\"auto\"><h4 class=\"header-anchor-post\">Prologue<div class=\"pencraft pc-display-flex pc-alignItems-center pc-position-absolute pc-reset header-anchor-parent\"><div class=\"pencraft pc-display-contents pc-reset pubTheme-yiXxQA\"><div class=\"pencraft pc-reset header-anchor offset-top\" id=\"\u00a7prologue\"></div><button aria-label=\"Link\" class=\"pencraft pc-reset pencraft iconButton-mq_Et5 iconButtonBase-dJGHgN buttonBase-GK1x3M buttonStyle-r7yGCK size_sm-G3LciD priority_secondary-S63h9o\" data-href=\"https://shandilyabh.substack.com/i/174476731/prologue\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-link\" fill=\"none\" height=\"18\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg></button></div></div></h4><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!Qycc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!Qycc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Qycc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Qycc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Qycc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":590,\"width\":1192,\"resizeWidth\":null,\"bytes\":214810,\"alt\":null,\"title\":null,\"type\":\"image/jpeg\",\"href\":null,\"belowTheFold\":false,\"topImage\":true,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b2c0f7f-c1fe-46e4-acb9-4f2bb69b4258_1456x971.jpeg\",\"isProcessing\":false,\"align\":null,\"offset\":false}' fetchpriority=\"high\" height=\"590\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!Qycc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg\" srcset=\"https://substackcdn.com/image/fetch/$s_!Qycc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Qycc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Qycc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Qycc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806a66ee-17ce-43b5-b808-bff57609c162_1192x590.jpeg 1456w\" width=\"1192\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\"><span>happiness is cash flow positive, in the picture\u2014</span><a href=\"https://www.nytimes.com/1981/01/06/business/venture-capitalist-a-rise-to-riches.html\" rel=\"nofollow ugc noopener\">Fred Adler</a><span> (source: X)</span></figcaption></figure></div><div class=\"pullquote\"><p><em>had been a while since a renowned money manager trash-talked Fama\u2019s efficient market hypothesis.</em></p></div><p><span>recently, the financial times </span><a href=\"https://www.ft.com/content/6f549890-c2a6-4823-a095-c8ea73f7e6bb\" rel=\"nofollow ugc noopener\">interviewed Jean-Philippe Bouchaud</a><span> [</span><a href=\"https://en.wikipedia.org/wiki/Jean-Philippe_Bouchaud\" rel=\"nofollow ugc noopener\">wiki</a><span>] and it was a fun, informational read, especially due to the </span><em>very english</em><span> style of writing &amp; Bouchaud\u2019s sufficiently succinct explanation of how the state of the markets relies upon net liquidity in it at a given point in time.</span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!ObT0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!ObT0!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 424w, https://substackcdn.com/image/fetch/$s_!ObT0!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 848w, https://substackcdn.com/image/fetch/$s_!ObT0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!ObT0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/e976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":692,\"width\":1456,\"resizeWidth\":544,\"bytes\":254010,\"alt\":\"\",\"title\":\"\",\"type\":\"image/jpeg\",\"href\":null,\"belowTheFold\":false,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"258.54945054945057\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!ObT0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg\" srcset=\"https://substackcdn.com/image/fetch/$s_!ObT0!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 424w, https://substackcdn.com/image/fetch/$s_!ObT0!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 848w, https://substackcdn.com/image/fetch/$s_!ObT0!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!ObT0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe976c86c-a13e-4af7-b25e-72bef83754a0_2048x974.jpeg 1456w\" title=\"\" width=\"544\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\"><span>excerpt from \u201c</span><a href=\"https://www.google.com/search?q=%E2%80%9CThe+Snowball%3A+Warren+Buffett+and+the+Business+of+Life%E2%80%9D+by+Alice+Schroeder&amp;sourceid=chrome&amp;ie=UTF-8\" rel=\"nofollow ugc noopener\">The Snowball: Warren Buffett and the Business of Life</a><span>\u201d</span></figcaption></figure></div><p><span>circling similar premise, back in 2013, Michael Pettis wrote a </span><a href=\"https://carnegieendowment.org/china-financial-markets/2013/11/when-are-markets-rational?lang=en\" rel=\"nofollow ugc noopener\">piece</a><span> on the rationality of financial markets\u2014in the backdrop of Nobel Prize in Economics that was jointly awarded to </span><a href=\"https://en.wikipedia.org/wiki/Eugene_Fama\" rel=\"nofollow ugc noopener\">Fama</a><span>, </span><a href=\"https://en.wikipedia.org/wiki/Robert_J._Shiller\" rel=\"nofollow ugc noopener\">Shiller</a><span>, and </span><a href=\"https://en.wikipedia.org/wiki/Lars_Peter_Hansen\" rel=\"nofollow ugc noopener\">Hansen</a><span>, \u201c</span><a href=\"https://www.nobelprize.org/prizes/economic-sciences/2013/press-release/\" rel=\"nofollow ugc noopener\">For their empirical analysis of asset prices</a><span>\u201d\u2014dwelling on how the diverse mix of investors &amp; strategies quantify the rationality within markets, and while Pettis doesn\u2019t manage a multibillion dollar quant fund, his words make a lot of sense.</span></p><p><a href=\"https://www.forbes.com/profile/daniel-sundheim/\" rel=\"nofollow ugc noopener\">Dan Sundheim</a><span> recently came on the Cheeky Pint hosted by John Collison, and they were joined by Daniel Gross. Sundheim talked a lot about himself, his idiosyncrasies (waking up unwarranted at 3:00 AM), an earnings morning, how D1 hires/invests, public v/s private markets, etc. [</span><em><a href=\"https://youtu.be/j-uK-8Qqz2U?si=AVnKiqdbHk-dD52J\" rel=\"nofollow ugc noopener\">he also spoke to David Rubenstein</a><span> back in May this year. that conversation had very similar themes, and i would champion that conversation because of David\u2019s seniority but Gross and Collison are just so much better at asking questions, clearly</span></em><span>].</span></p><p><span>my favourite parts were toward the end when (1) John asked for any advice Dan would like to give to a young person trying to get into investing, and after naming a couple of books, and </span><a href=\"https://valueinvestorsclub.com/\" rel=\"nofollow ugc noopener\">the value investor club</a><span> website, he said\u2014\u201cthe more you read, the better you are\u201d. (2) after Dan mentioned Buffet\u2019s letters, John talked about the original general partnership letters Buffet used to write from late 50s to late 70s, and how the young, ambitious, and unpolished Warren Buffet was on display there. </span><em><a href=\"https://t.co/6NVHjYNrLE\" rel=\"nofollow ugc noopener\">here are those letters</a></em><span>.</span></p><div><hr/></div><h4 class=\"header-anchor-post\">Abundance<div class=\"pencraft pc-display-flex pc-alignItems-center pc-position-absolute pc-reset header-anchor-parent\"><div class=\"pencraft pc-display-contents pc-reset pubTheme-yiXxQA\"><div class=\"pencraft pc-reset header-anchor offset-top\" id=\"\u00a7abundance\"></div><button aria-label=\"Link\" class=\"pencraft pc-reset pencraft iconButton-mq_Et5 iconButtonBase-dJGHgN buttonBase-GK1x3M buttonStyle-r7yGCK size_sm-G3LciD priority_secondary-S63h9o\" data-href=\"https://shandilyabh.substack.com/i/174476731/abundance\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-link\" fill=\"none\" height=\"18\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg></button></div></div></h4><p><strong>the case for abundance is quite simple:</strong><span> </span><em>we produce a lot, we keep producing forever, and since there\u2019s enough for everybody, the only incentive to work will be for cumulative progress of humanity. survival and social mobility will cease to exist as intrinsic motivators for labour and output. governance will be solved. economics and the fields of social sciences will most likely cease to exist. the only worry will be of the emotional kind. concisely, we will all live in heaven.</em></p><p><span>the advent of LLMs, popularly back in 2022, propelled the peripheral optimism around establishing such a state in the world\u2014</span><em>prosperity on the back on next token prediction</em><span>\u2014further (after crypto carried it for a good couple of years). and the optimism was as strong as anything right up until mid 2025, when suddenly, the ai-funding spree, spearheaded by venture capitalists and private credit, found its way to an epiphany: </span><em>these companies (or as everyone seems to call them now: frontier labs) need to make money and they\u2019re not</em><span>.</span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!QIUg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!QIUg!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 424w, https://substackcdn.com/image/fetch/$s_!QIUg!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 848w, https://substackcdn.com/image/fetch/$s_!QIUg!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!QIUg!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":718,\"width\":1262,\"resizeWidth\":598,\"bytes\":465991,\"alt\":null,\"title\":null,\"type\":\"image/jpeg\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe4da2e4-fdd9-479d-8fa1-b56220b43bf2_1262x2000.jpeg\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"340.22503961965134\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!QIUg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg\" srcset=\"https://substackcdn.com/image/fetch/$s_!QIUg!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 424w, https://substackcdn.com/image/fetch/$s_!QIUg!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 848w, https://substackcdn.com/image/fetch/$s_!QIUg!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!QIUg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06437dfe-6413-4bc7-9680-531e8bfa6ef6_1262x718.jpeg 1456w\" width=\"598\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><blockquote><p><em>the problem with excess or abundance, observed historically, is that its existence often gets accompanied by chaos.</em></p></blockquote><h5>John Calhoun\u2019s Universe 25</h5><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!_cOF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!_cOF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 424w, https://substackcdn.com/image/fetch/$s_!_cOF!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 848w, https://substackcdn.com/image/fetch/$s_!_cOF!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 1272w, https://substackcdn.com/image/fetch/$s_!_cOF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":900,\"width\":1200,\"resizeWidth\":622,\"bytes\":287110,\"alt\":null,\"title\":null,\"type\":\"image/webp\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"466.5\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!_cOF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!_cOF!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 424w, https://substackcdn.com/image/fetch/$s_!_cOF!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 848w, https://substackcdn.com/image/fetch/$s_!_cOF!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 1272w, https://substackcdn.com/image/fetch/$s_!_cOF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17371a3e-9c8c-47e8-b117-246c3c8869ce_1200x900.webp 1456w\" width=\"622\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">John Calhoun crouches within his rodent utopia-turned-dystopia</figcaption></figure></div><p><span>[</span><a href=\"https://www.the-scientist.com/universe-25-experiment-69941\" rel=\"nofollow ugc noopener\">detailed write-up</a><span>] </span><em><span>In a controlled experiment, by </span><a href=\"https://en.wikipedia.org/wiki/John_B._Calhoun\" rel=\"nofollow ugc noopener\">John Calhoun</a><span>, simulating abundance, rats were given unlimited food, water, and shelter within a confined space. Initially, the population grew rapidly and social life appeared orderly. But as density increased, behaviour deteriorated. Dominant males became violent, weaker ones withdrew, mothers neglected their young, and infant mortality soared. Eventually, reproduction stopped entirely. A final generation known as \u201cthe beautiful ones\u201d emerged\u2014healthy in appearance but socially vacant, spending their lives grooming and eating while avoiding all interaction.</span></em></p><blockquote><p><span>The colony\u2019s collapse, despite perfect physical conditions, revealed that </span><em><strong>social and psychological stability depend on structure, roles, and purpose, not merely on material sufficiency</strong></em><span>. When these break down under purposeless abundance, complex social behaviour disintegrates, leading to apathy, alienation, and ultimately extinction.</span></p></blockquote><div><hr/></div><h4 class=\"header-anchor-post\">1990s and the 1920s are back<div class=\"pencraft pc-display-flex pc-alignItems-center pc-position-absolute pc-reset header-anchor-parent\"><div class=\"pencraft pc-display-contents pc-reset pubTheme-yiXxQA\"><div class=\"pencraft pc-reset header-anchor offset-top\" id=\"\u00a71990s-and-the-1920s-are-back\"></div><button aria-label=\"Link\" class=\"pencraft pc-reset pencraft iconButton-mq_Et5 iconButtonBase-dJGHgN buttonBase-GK1x3M buttonStyle-r7yGCK size_sm-G3LciD priority_secondary-S63h9o\" data-href=\"https://shandilyabh.substack.com/i/174476731/1990s-and-the-1920s-are-back\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-link\" fill=\"none\" height=\"18\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg></button></div></div></h4><h5><span>(</span><em>also, in Fashion</em><span>)</span></h5><p><span>apart from the comparisons with the dot com bubble of the mid nineties [</span><em><a href=\"https://fortune.com/2025/10/07/paul-tudor-jones-hedge-fund-billionaire-markets-more-explosive-than-1999/\" rel=\"nofollow ugc noopener\">i think Paul Tudor Jones was the first to talk of this to a major media outlet</a></em><span>], times today are also being compared eerily with the great depression of 1929. a lot of credit actually goes to </span><a href=\"https://sites.prh.com/1929\" rel=\"nofollow ugc noopener\">Aaron Ross Sorkin for coming up with his new book\u20141929</a><span>. he did an impressive roadshow across </span><a href=\"https://youtu.be/26WMF7Xdb0E?si=bI7k4X64JhwMR9Vl\" rel=\"nofollow ugc noopener\">news channels</a><span>, </span><a href=\"https://youtu.be/OQcveYRfZgs?si=ZRxgUwF2CkqcJAen\" rel=\"nofollow ugc noopener\">podcasts</a><span>, and conferences talking about the similarities between the two timelines, the grandeur of the 1920s, and of course how he isn\u2019t sure, but the recession\u2019s on the way. </span><a href=\"https://youtu.be/UvcKMTNlsDY?si=HcUcpKWJzxmO9Lka\" rel=\"nofollow ugc noopener\">Ruchir Sharma spoke about Gold\u2019s rally this year</a><span> &amp; how the inverse link between securities &amp; gold has broken down (</span><em>i don\u2019t completely agree with the observation, yet</em><span>).</span></p><p><span>one of the most interesting pieces to come out in the last one month is this </span><a href=\"https://www.acadian-asset.com/investment-insights/owenomics#\" rel=\"nofollow ugc noopener\">Owen Lamont</a><span> blogpost/article about \u201c</span><em>dumb money</em><span>\u201d (retail participation in the financial markets) and how your waiter\u2019s investment account is a great economic indicator [</span><a href=\"https://t.co/pHWgrz53r3\" rel=\"nofollow ugc noopener\">here</a><span>].</span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!djlj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!djlj!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 424w, https://substackcdn.com/image/fetch/$s_!djlj!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 848w, https://substackcdn.com/image/fetch/$s_!djlj!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 1272w, https://substackcdn.com/image/fetch/$s_!djlj!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":647,\"width\":718,\"resizeWidth\":520,\"bytes\":134568,\"alt\":null,\"title\":null,\"type\":\"image/png\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"468.5793871866295\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!djlj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png\" srcset=\"https://substackcdn.com/image/fetch/$s_!djlj!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 424w, https://substackcdn.com/image/fetch/$s_!djlj!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 848w, https://substackcdn.com/image/fetch/$s_!djlj!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 1272w, https://substackcdn.com/image/fetch/$s_!djlj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e84aea0-5a94-4be8-bc59-430cfb7f4d9c_718x647.png 1456w\" width=\"520\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><strong>the Fashion segue</strong></p><blockquote><p><span>Major fashion houses\u2014</span><em>Chanel </em><span>(Matthieu Blazy)</span><em>, Gucci, Dior </em><span>(Jonathan Anderson)</span><em>, Versace </em><span>(Dario Vitale)</span><em>, Bottega Veneta </em><span>(Louise Trotter)</span><em>, more</em><span>\u2014have all had a change in the creative leadership in the past 10-12 months. with the most consequential of them all being of Chanel\u2019s and Dior\u2019s. </span><em>well, especially, Dior\u2019s</em><span>. </span></p><p>when did something like this happen last time? in 1990s. </p><p>[Tom Ford at Gucci. Stella McCartney for Chloe. Michael Kors at Celine. Marc Jacobs for Louis Vuitton. John Galliano for Givenchy &amp; Dior. Alexander McQueen at Givenchy.]</p></blockquote><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!55I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!55I-!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 424w, https://substackcdn.com/image/fetch/$s_!55I-!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 848w, https://substackcdn.com/image/fetch/$s_!55I-!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 1272w, https://substackcdn.com/image/fetch/$s_!55I-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":989,\"width\":1456,\"resizeWidth\":540,\"bytes\":353608,\"alt\":null,\"title\":null,\"type\":\"image/webp\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"366.79945054945057\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!55I-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!55I-!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 424w, https://substackcdn.com/image/fetch/$s_!55I-!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 848w, https://substackcdn.com/image/fetch/$s_!55I-!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 1272w, https://substackcdn.com/image/fetch/$s_!55I-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5adacfff-ea58-4459-8ed2-c4a6f45fb6f0_1600x1087.webp 1456w\" width=\"540\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">image from the GQ article linked below</figcaption></figure></div><blockquote><p><span>[</span><a href=\"https://www.gqindia.com/content/the-gq-guide-to-luxury-fashion-leadership-changes-dior-chanel-versace-and-others-witness-big-moves\" rel=\"nofollow ugc noopener\">a good article to read to know about this from someone who actually knows about fashion</a><span>].</span></p></blockquote><div><hr/></div><h4 class=\"header-anchor-post\">Miscellaneous*<div class=\"pencraft pc-display-flex pc-alignItems-center pc-position-absolute pc-reset header-anchor-parent\"><div class=\"pencraft pc-display-contents pc-reset pubTheme-yiXxQA\"><div class=\"pencraft pc-reset header-anchor offset-top\" id=\"\u00a7miscellaneous\"></div><button aria-label=\"Link\" class=\"pencraft pc-reset pencraft iconButton-mq_Et5 iconButtonBase-dJGHgN buttonBase-GK1x3M buttonStyle-r7yGCK size_sm-G3LciD priority_secondary-S63h9o\" data-href=\"https://shandilyabh.substack.com/i/174476731/miscellaneous\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-link\" fill=\"none\" height=\"18\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg></button></div></div></h4><ol><li><p><span>found </span><a href=\"https://www.nga.gov/artwork-search?keywords=Claude%20Monet&amp;download=1&amp;page=1\" rel=\"nofollow ugc noopener\">this website</a><span> to download high-quality digital scans of famous artworks.</span></p></li><li><p><a href=\"https://youtu.be/KZeIEiBrT_w?si=7HzK_ae3QRBel9yO\" rel=\"nofollow ugc noopener\">Vertasium\u2019s video on Markov Chains</a><span>. one of the most profound ideas in mathematics, with an equally (if not more) interesting origin as </span><a href=\"https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy\" rel=\"nofollow ugc noopener\">Calculus\u2019</a><span>.</span></p></li><li><p><span>An Excerpt from Max Chafkin\u2019s \u201cThe Contrarian\u201d\u2014[</span><a href=\"https://x.com/apralky/status/1987180412787888527?s=20\" rel=\"nofollow ugc noopener\">xeet here</a><span>]: </span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!cb-g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!cb-g!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 424w, https://substackcdn.com/image/fetch/$s_!cb-g!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 848w, https://substackcdn.com/image/fetch/$s_!cb-g!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 1272w, https://substackcdn.com/image/fetch/$s_!cb-g!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/aad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":751,\"width\":598,\"resizeWidth\":null,\"bytes\":317511,\"alt\":null,\"title\":null,\"type\":\"image/png\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"751\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!cb-g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png\" srcset=\"https://substackcdn.com/image/fetch/$s_!cb-g!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 424w, https://substackcdn.com/image/fetch/$s_!cb-g!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 848w, https://substackcdn.com/image/fetch/$s_!cb-g!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 1272w, https://substackcdn.com/image/fetch/$s_!cb-g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faad5cc97-9dec-4b7c-978d-6968c4a951b7_598x751.png 1456w\" width=\"598\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><blockquote><p><span>there\u2019s also this article that came out right before the book, </span><a href=\"https://nymag.com/intelligencer/article/peter-thiel-silicon-valley-contrarian-max-chafkin.html\" rel=\"nofollow ugc noopener\">an absolute banger</a><span>. [</span><em>must read</em><span>]</span></p></blockquote></li></ol><ol start=\"4\"><li><p><a href=\"https://substack.com/@moontower\" rel=\"nofollow ugc noopener\">Kris Abdelmessih</a><span>\u2019s blog. a lot of good writing. i got there via this one particularly: </span><a href=\"https://moontowermeta.com/lessons-from-susquehanna/\" rel=\"nofollow ugc noopener\">Lessons From Susquehanna</a><span>.</span></p></li><li><p><span>around late October, this image kept popping up on my x timeline. this image is of the connaught place, in 1970s Delhi. </span><em>apart from the stark colours, absence of traffic, no street shops, and the lack of women in the photograph, one more thing might catch people\u2019s eyes\u2014it\u2019s the fashion</em><span>. everything from a business jacket and a peacoat to an indigo sweater and a leather jacket. </span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!SqKp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!SqKp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 424w, https://substackcdn.com/image/fetch/$s_!SqKp!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 848w, https://substackcdn.com/image/fetch/$s_!SqKp!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!SqKp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":944,\"width\":1456,\"resizeWidth\":644,\"bytes\":484275,\"alt\":null,\"title\":null,\"type\":\"image/jpeg\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"417.53846153846155\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!SqKp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg\" srcset=\"https://substackcdn.com/image/fetch/$s_!SqKp!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 424w, https://substackcdn.com/image/fetch/$s_!SqKp!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 848w, https://substackcdn.com/image/fetch/$s_!SqKp!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!SqKp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40fe95bb-6766-4fcd-bd4a-a2289a46b11d_1600x1037.jpeg 1456w\" width=\"644\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">source: X</figcaption></figure></div><blockquote><p>it\u2019s an incredible photograph.</p></blockquote></li></ol><ol start=\"7\"><li><p><span>Also, I came across </span><a href=\"https://economictimes.indiatimes.com/opinion/et-commentary/bihar-may-be-in-full-poll-mode-but-almost-everyone-from-patna-was-once-la-mode/articleshow/124812300.cms?from=mdr\" rel=\"nofollow ugc noopener\">this article</a><span>  written by Siddharth Chowdhury in the economic times [25th October] and it was really fun to read. </span></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!EUET!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!EUET!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 424w, https://substackcdn.com/image/fetch/$s_!EUET!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 848w, https://substackcdn.com/image/fetch/$s_!EUET!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 1272w, https://substackcdn.com/image/fetch/$s_!EUET!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":460,\"width\":671,\"resizeWidth\":587,\"bytes\":109883,\"alt\":null,\"title\":null,\"type\":\"image/png\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd46c79bf-5f73-4610-b8b6-2f4d7b6169e3_671x889.png\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"402.4143070044709\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!EUET!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png\" srcset=\"https://substackcdn.com/image/fetch/$s_!EUET!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 424w, https://substackcdn.com/image/fetch/$s_!EUET!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 848w, https://substackcdn.com/image/fetch/$s_!EUET!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 1272w, https://substackcdn.com/image/fetch/$s_!EUET!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F243d578a-441f-4955-841c-00f7b78dd6bd_671x460.png 1456w\" width=\"587\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div></li></ol><ol start=\"8\"><li><p>some youtube videos I watched:</p><blockquote><ul><li><p><span>Gustaf Ericson\u2014COO, Citadel Securities, India [</span><a href=\"https://youtu.be/YFb5kUats5E?si=qm1HWC7pc4tg4TkK\" rel=\"nofollow ugc noopener\">here</a><span>]</span></p></li><li><p><span>A quant\u2019s perspective on the 2008 financial crises [</span><a href=\"https://youtu.be/VlOjcOp9a5U?si=QxsT0xy_qYK3_tm6\" rel=\"nofollow ugc noopener\">here</a><span>]</span></p></li><li><p><span>Stanley Druckenmiller interview, 2009 [</span><a href=\"https://youtu.be/AJqLuMo9GPY?si=kVoOIh0WUtVIUUIR\" rel=\"nofollow ugc noopener\">here</a><span>]</span></p></li><li><p><span>The Citadel Finance Speaker series with Bill Ackman [</span><a href=\"https://youtu.be/FhUQT6uH3vQ?si=zw316ZAKJzixyFVC\" rel=\"nofollow ugc noopener\">here</a><span>]</span></p></li></ul></blockquote></li><li><p>I asked one of my seniors, about his favourite book on trading/investing. the answer was this series of books featuring interviews with traders about their experiences in the commodities, stock, and currency markets.</p><ul><li><p><span>Market Wizards: Interviews with Top Traders, </span><em><span>1989 [</span><a href=\"https://pakyahussin.com/wp-content/uploads/2019/07/Jack-D.-Schwager-Market-Wizards-Interviews-with-Top-Traders-Marketplace-Books-2006.pdf\" rel=\"nofollow ugc noopener\">pdf</a><span>]</span></em></p></li></ul><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img can-restack\" data-component-name=\"Image2ToDOM\" href=\"https://substackcdn.com/image/fetch/$s_!uy4-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png\" rel=\"nofollow ugc noopener\" target=\"_blank\"><div class=\"image2-inset can-restack\"><picture><source sizes=\"100vw\" srcset=\"https://substackcdn.com/image/fetch/$s_!uy4-!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 424w, https://substackcdn.com/image/fetch/$s_!uy4-!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 848w, https://substackcdn.com/image/fetch/$s_!uy4-!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 1272w, https://substackcdn.com/image/fetch/$s_!uy4-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 1456w\" type=\"image/webp\"/><img alt=\"\" class=\"sizing-normal\" data-attrs='{\"src\":\"https://substack-post-media.s3.amazonaws.com/public/images/9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png\",\"srcNoWatermark\":null,\"fullscreen\":null,\"imageSize\":null,\"height\":269,\"width\":622,\"resizeWidth\":null,\"bytes\":84485,\"alt\":null,\"title\":null,\"type\":\"image/png\",\"href\":null,\"belowTheFold\":true,\"topImage\":false,\"internalRedirect\":\"https://shandilyabh.substack.com/i/174476731?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png\",\"isProcessing\":false,\"align\":null,\"offset\":false}' height=\"269\" loading=\"lazy\" sizes=\"100vw\" src=\"https://substackcdn.com/image/fetch/$s_!uy4-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png\" srcset=\"https://substackcdn.com/image/fetch/$s_!uy4-!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 424w, https://substackcdn.com/image/fetch/$s_!uy4-!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 848w, https://substackcdn.com/image/fetch/$s_!uy4-!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 1272w, https://substackcdn.com/image/fetch/$s_!uy4-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e286ec9-53e5-47f2-b275-ff94871b1cfe_622x269.png 1456w\" width=\"622\"/></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image\" tabindex=\"0\" type=\"button\"><svg fill=\"none\" height=\"20\" role=\"img\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" style=\"height:20px;width:20px\" viewbox=\"0 0 20 20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><g><title></title><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image\" tabindex=\"0\" type=\"button\"><svg class=\"lucide lucide-maximize2 lucide-maximize-2\" fill=\"none\" height=\"20\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Michael Marcus on Bruce Kovner</figcaption></figure></div><ul><li><p><span>The New Market Wizards: Conversations with America\u2019s Top Traders, </span><em><span>1992 [</span><a href=\"https://theyoungtreps.com/wp-content/uploads/2021/05/The-New-Market-Wizards.pdf\" rel=\"nofollow ugc noopener\">pdf</a><span>]</span></em></p></li><li><p><span>Stock Market Wizards: Interviews with America\u2019s Top Stock Traders, </span><em><span>2001 [</span><a href=\"https://www.forexfactory.com/attachment.php?attachmentid=605679&amp;d=1293584941\" rel=\"nofollow ugc noopener\">pdf</a><span>]</span></em></p><p></p><p><em>I mean, there are two more books in this series [Hedge Fund Market Wizards: How Winning Traders Win, 2012 and Unknown Market Wizards: The Best Traders You\u2019ve Never Heard Of, 2020] but he didn\u2019t mention them specifically. I might read these soon.</em></p></li></ul><p></p><p><span>these are written by </span><a href=\"https://www.panmacmillan.com/authors/jack-d-schwager/48249\" rel=\"nofollow ugc noopener\">Jack Schwager</a><span>\u2014who himself, is an absolute legend.</span></p></li></ol><div class=\"subscription-widget-wrap\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p>subscribe if you feel like it.</p></div><div class=\"subscribe-widget\" data-component-name=\"SubscribeWidget\"><div class=\"pencraft pc-display-flex pc-justifyContent-center pc-reset\"><div class=\"container-IpPqBD\"><form action=\"/api/v1/free?nojs=true\" class=\"form form-M5sC90\" method=\"post\" novalidate=\"\"><input name=\"first_url\" type=\"hidden\" value=\"\"/><input name=\"first_referrer\" type=\"hidden\" value=\"\"/><input name=\"current_url\" type=\"hidden\"/><input name=\"current_referrer\" type=\"hidden\"/><input name=\"first_session_url\" type=\"hidden\" value=\"\"/><input name=\"first_session_referrer\" type=\"hidden\" value=\"\"/><input name=\"referral_code\" type=\"hidden\"/><input name=\"source\" type=\"hidden\" value=\"subscribe-widget-preamble\"/><input name=\"referring_pub_id\" type=\"hidden\"/><input name=\"additional_referring_pub_ids\" type=\"hidden\"/><div class=\"sideBySideWrap-vGXrwP\"><div class=\"emailInputWrapper-QlA86j\"><div class=\"pencraft pc-display-flex pc-minWidth-0 pc-position-relative pc-reset flex-auto-j3S2WA\"><input class=\"pencraft emailInput-OkIMeB input-y4v6N4 inputText-pV_yWb\" name=\"email\" placeholder=\"Type your email...\" type=\"email\"/></div></div><button class=\"pencraft pc-reset pencraft rightButton primary subscribe-btn button-VFSdkv buttonBase-GK1x3M\" disabled=\"\" tabindex=\"0\" type=\"submit\"><span class=\"button-text\">Subscribe</span></button></div><div id=\"error-container\"></div></form></div></div></div></div></div></div>",
+    "url": "https://shandilyabh.substack.com/p/chaos-and-excess"
+  },
+  "tweet": {
+    "text": "whether or not one decides to infuse math behind every decision/bet they make, being aware of the mathematical perspective even in hindsight is quite worthwhile if you ask me. this is very well written",
+    "date": "08 MAR 26",
+    "url": "https://x.com/shandilyabh/status/2030527954862907620"
+  },
+  "github": {
+    "weeks": [
+      {
+        "contributionDays": [
+          {
+            "date": "2025-11-20",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-27",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-04",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-11",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-18",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-25",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-01-01",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2026-01-08",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-15",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-22",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-29",
+            "level": 2,
+            "count": 0
+          },
+          {
+            "date": "2026-02-05",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-02-12",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-02-19",
+            "level": 1,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2026-02-26",
+            "level": 2,
+            "count": 0
+          },
+          {
+            "date": "2026-03-05",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-03-14",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-03-21",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-03-28",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-04-04",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-04-11",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-04-18",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-04-25",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-02",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-09",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-16",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-23",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-30",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-06-06",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-13",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-20",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-27",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-07-04",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-07-11",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-07-18",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-07-25",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-01",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-08",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-15",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-22",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-29",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-09-05",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-09-12",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-09-19",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-09-26",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-03",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-10",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-17",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-24",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-10-31",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-07",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-14",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-21",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-28",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-05",
+            "level": 2,
+            "count": 0
+          },
+          {
+            "date": "2025-12-12",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-12-19",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-26",
+            "level": 3,
+            "count": 0
+          },
+          {
+            "date": "2026-01-02",
+            "level": 4,
+            "count": 0
+          },
+          {
+            "date": "2026-01-09",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-16",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-23",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-01-30",
+            "level": 1,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2026-02-06",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-02-13",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-02-20",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-02-27",
+            "level": 4,
+            "count": 0
+          },
+          {
+            "date": "2026-03-06",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-03-15",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-03-22",
+            "level": 1,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-03-29",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-04-05",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-04-12",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-04-19",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-04-26",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-03",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-10",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-05-17",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-24",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-05-31",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-07",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-14",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-21",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-06-28",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-07-05",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-07-12",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-07-19",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-07-26",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-02",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-09",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-16",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-08-23",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-08-30",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-09-06",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-09-13",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-09-20",
+            "level": 2,
+            "count": 0
+          },
+          {
+            "date": "2025-09-27",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-04",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-10-11",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-18",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-10-25",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-01",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-08",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-15",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-11-22",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2025-11-29",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-12-06",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-13",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2025-12-20",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2025-12-27",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-03",
+            "level": 2,
+            "count": 0
+          },
+          {
+            "date": "2026-01-10",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2026-01-17",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-01-24",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-01-31",
+            "level": 4,
+            "count": 0
+          },
+          {
+            "date": "2026-02-07",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-02-14",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-02-21",
+            "level": 1,
+            "count": 0
+          },
+          {
+            "date": "2026-02-28",
+            "level": 1,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "contributionDays": [
+          {
+            "date": "2026-03-07",
+            "level": 0,
+            "count": 0
+          }
+        ]
+      }
+    ]
+  }
+}
