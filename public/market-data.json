@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03 16:41:01",
+  "last_updated": "2026-04-03 17:35:00",
   "tickers": {
     "^NSEI": {
       "price": 22713.1,
@@ -20,15 +20,15 @@
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 92.68,
-      "change": -0.31,
-      "percent_change": -0.34,
+      "price": 92.67,
+      "change": -0.32,
+      "percent_change": -0.35,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 66933.4,
-      "change": 44.3,
-      "percent_change": 0.07,
+      "price": 66941.38,
+      "change": 52.29,
+      "percent_change": 0.08,
       "currency": "USD"
     },
     "CL=F": {
