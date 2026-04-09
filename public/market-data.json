@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09 10:59:19",
+  "last_updated": "2026-04-09 11:59:23",
   "tickers": {
     "^NSEI": {
       "price": 23775.1,
@@ -14,9 +14,9 @@
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10575.53,
-      "change": -21.48,
-      "percent_change": -0.2,
+      "price": 10581.94,
+      "change": -15.07,
+      "percent_change": -0.14,
       "currency": "GBP"
     },
     "INR=X": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 71361.34,
-      "change": 246.22,
-      "percent_change": 0.35,
+      "price": 71149.97,
+      "change": 34.84,
+      "percent_change": 0.05,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 99.18,
-      "change": 1.99,
-      "percent_change": 2.05,
+      "price": 98.51,
+      "change": 1.32,
+      "percent_change": 1.36,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4767.6,
-      "change": 32.6,
-      "percent_change": 0.69,
+      "price": 4781.7,
+      "change": 46.7,
+      "percent_change": 0.99,
       "currency": "USD"
     }
   },
@@ -844,7 +844,7 @@
       },
       {
         "time": "2026-04-09",
-        "value": 10576.0400390625
+        "value": 10581.900390625
       }
     ]
   },
