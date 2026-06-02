@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-02 08:42:40",
+  "last_updated": "2026-06-02 12:41:47",
   "tickers": {
     "^NSEI": {
-      "price": 23543.8,
-      "change": 164.6,
-      "percent_change": 0.7,
+      "price": 23483.55,
+      "change": 104.35,
+      "percent_change": 0.45,
       "currency": "INR"
     },
     "^GSPC": {
@@ -14,33 +14,33 @@
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10382.93,
-      "change": 58.7,
-      "percent_change": 0.57,
+      "price": 10357.86,
+      "change": 33.63,
+      "percent_change": 0.33,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 95.23,
-      "change": 0.25,
-      "percent_change": 0.26,
+      "price": 95.26,
+      "change": 0.28,
+      "percent_change": 0.3,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 69811.23,
-      "change": -1495.96,
-      "percent_change": -2.1,
+      "price": 69134.58,
+      "change": -2172.61,
+      "percent_change": -3.05,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 90.71,
-      "change": -0.74,
-      "percent_change": -0.81,
+      "price": 91.13,
+      "change": -0.32,
+      "percent_change": -0.35,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4562.2,
-      "change": 33.8,
-      "percent_change": 0.75,
+      "price": 4554.8,
+      "change": 26.4,
+      "percent_change": 0.58,
       "currency": "USD"
     }
   },
@@ -444,7 +444,7 @@
       },
       {
         "time": "2026-06-02",
-        "value": 23543.80078125
+        "value": 23483.55078125
       }
     ],
     "^GSPC": [
@@ -1276,7 +1276,7 @@
       },
       {
         "time": "2026-06-02",
-        "value": 10382.9404296875
+        "value": 10357.91015625
       }
     ]
   },
@@ -1296,7 +1296,7 @@
         "contributionDays": [
           {
             "date": "2026-01-29",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1340,7 +1340,7 @@
           },
           {
             "date": "2026-03-26",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1374,7 +1374,7 @@
         "contributionDays": [
           {
             "date": "2026-05-07",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1555,12 +1555,12 @@
           },
           {
             "date": "2025-12-26",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
             "date": "2026-01-02",
-            "level": 3,
+            "level": 4,
             "count": 0
           }
         ]
@@ -1608,7 +1608,7 @@
         "contributionDays": [
           {
             "date": "2026-02-27",
-            "level": 3,
+            "level": 4,
             "count": 0
           },
           {
@@ -1618,12 +1618,12 @@
           },
           {
             "date": "2026-03-13",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
             "date": "2026-03-20",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
@@ -1647,7 +1647,7 @@
         "contributionDays": [
           {
             "date": "2026-04-17",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1672,12 +1672,12 @@
           },
           {
             "date": "2026-05-22",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
             "date": "2026-05-29",
-            "level": 2,
+            "level": 3,
             "count": 0
           }
         ]
@@ -1769,7 +1769,7 @@
           },
           {
             "date": "2025-09-20",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1945,7 +1945,7 @@
           },
           {
             "date": "2026-05-02",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
