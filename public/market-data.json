@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02 20:49:25",
+  "last_updated": "2026-06-02 23:02:46",
   "tickers": {
     "^NSEI": {
       "price": 23483.55,
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 67373.34,
-      "change": -3933.84,
-      "percent_change": -5.52,
+      "price": 66164.95,
+      "change": -5142.23,
+      "percent_change": -7.21,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 93.39,
-      "change": 1.94,
-      "percent_change": 2.12,
+      "price": 94.25,
+      "change": 2.8,
+      "percent_change": 3.06,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4519.7,
-      "change": -8.7,
-      "percent_change": -0.19,
+      "price": 4518.5,
+      "change": -9.9,
+      "percent_change": -0.22,
       "currency": "USD"
     }
   },
@@ -1273,10 +1273,6 @@
       {
         "time": "2026-06-01",
         "value": 10339.0
-      },
-      {
-        "time": "2026-06-02",
-        "value": 10373.509765625
       }
     ]
   },
