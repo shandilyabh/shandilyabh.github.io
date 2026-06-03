@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03 14:29:11",
+  "last_updated": "2026-06-03 18:43:22",
   "tickers": {
     "^NSEI": {
       "price": 23405.6,
@@ -8,15 +8,15 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7581.56,
-      "change": -28.95,
-      "percent_change": -0.38,
+      "price": 7572.77,
+      "change": -37.74,
+      "percent_change": -0.5,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10349.13,
-      "change": -27.1,
-      "percent_change": -0.26,
+      "price": 10332.3,
+      "change": -41.21,
+      "percent_change": -0.4,
       "currency": "GBP"
     },
     "INR=X": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 66598.45,
-      "change": -58.09,
-      "percent_change": -0.09,
+      "price": 65977.6,
+      "change": -678.95,
+      "percent_change": -1.02,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 95.1,
-      "change": 0.38,
-      "percent_change": 0.4,
+      "price": 96.1,
+      "change": 1.38,
+      "percent_change": 1.46,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4473.9,
-      "change": -38.1,
-      "percent_change": -0.84,
+      "price": 4468.7,
+      "change": -43.3,
+      "percent_change": -0.96,
       "currency": "USD"
     }
   },
@@ -445,10 +445,6 @@
       {
         "time": "2026-06-02",
         "value": 23483.55078125
-      },
-      {
-        "time": "2026-06-03",
-        "value": 23405.599609375
       }
     ],
     "^GSPC": [
@@ -870,7 +866,7 @@
       },
       {
         "time": "2026-06-03",
-        "value": 7581.56005859375
+        "value": 7572.759765625
       }
     ],
     "^FTSE": [
@@ -1292,7 +1288,7 @@
       },
       {
         "time": "2026-06-03",
-        "value": 10349.0703125
+        "value": 10332.2998046875
       }
     ]
   },
