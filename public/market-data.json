@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-06-03 09:25:32",
+  "last_updated": "2026-06-03 14:29:11",
   "tickers": {
     "^NSEI": {
-      "price": 23437.55,
-      "change": -83.15,
-      "percent_change": -0.35,
+      "price": 23405.6,
+      "change": -115.1,
+      "percent_change": -0.49,
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7609.78,
-      "change": 9.82,
-      "percent_change": 0.13,
+      "price": 7581.56,
+      "change": -28.95,
+      "percent_change": -0.38,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10355.88,
-      "change": -20.35,
-      "percent_change": -0.2,
+      "price": 10349.13,
+      "change": -27.1,
+      "percent_change": -0.26,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 95.65,
-      "change": 0.4,
-      "percent_change": 0.41,
+      "price": 95.69,
+      "change": 0.44,
+      "percent_change": 0.46,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 66726.18,
-      "change": 69.63,
-      "percent_change": 0.1,
+      "price": 66598.45,
+      "change": -58.09,
+      "percent_change": -0.09,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 96.15,
-      "change": 1.43,
-      "percent_change": 1.51,
+      "price": 95.1,
+      "change": 0.38,
+      "percent_change": 0.4,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4477.6,
-      "change": -34.4,
-      "percent_change": -0.76,
+      "price": 4473.9,
+      "change": -38.1,
+      "percent_change": -0.84,
       "currency": "USD"
     }
   },
@@ -448,7 +448,7 @@
       },
       {
         "time": "2026-06-03",
-        "value": 23438.099609375
+        "value": 23405.599609375
       }
     ],
     "^GSPC": [
@@ -867,6 +867,10 @@
       {
         "time": "2026-06-02",
         "value": 7609.77978515625
+      },
+      {
+        "time": "2026-06-03",
+        "value": 7581.56005859375
       }
     ],
     "^FTSE": [
@@ -1288,7 +1292,7 @@
       },
       {
         "time": "2026-06-03",
-        "value": 10355.9599609375
+        "value": 10349.0703125
       }
     ]
   },
