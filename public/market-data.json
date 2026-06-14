@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13 22:04:08",
+  "last_updated": "2026-06-14 00:07:15",
   "tickers": {
     "^NSEI": {
       "price": 23622.9,
@@ -26,9 +26,9 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 64407.02,
-      "change": 878.06,
-      "percent_change": 1.38,
+      "price": 64431.99,
+      "change": -117.67,
+      "percent_change": -0.18,
       "currency": "USD"
     },
     "CL=F": {
@@ -1395,26 +1395,6 @@
       {
         "contributionDays": [
           {
-            "date": "2026-01-29",
-            "level": 1,
-            "count": 0
-          },
-          {
-            "date": "2026-02-05",
-            "level": 1,
-            "count": 0
-          },
-          {
-            "date": "2026-02-12",
-            "level": 1,
-            "count": 0
-          },
-          {
-            "date": "2026-02-19",
-            "level": 1,
-            "count": 0
-          },
-          {
             "date": "2026-02-26",
             "level": 1,
             "count": 0
@@ -1428,11 +1408,7 @@
             "date": "2026-03-12",
             "level": 0,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2026-03-19",
             "level": 1,
@@ -1452,7 +1428,11 @@
             "date": "2026-04-09",
             "level": 0,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2026-04-16",
             "level": 1,
@@ -1467,11 +1447,7 @@
             "date": "2026-04-30",
             "level": 1,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2026-05-07",
             "level": 1,
@@ -1491,7 +1467,11 @@
             "date": "2026-05-28",
             "level": 1,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2026-06-04",
             "level": 1,
@@ -1502,15 +1482,6 @@
             "level": 4,
             "count": 0
           },
-          {
-            "date": "2025-06-13",
-            "level": 0,
-            "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
           {
             "date": "2025-06-20",
             "level": 0,
@@ -1535,7 +1506,11 @@
             "date": "2025-07-18",
             "level": 0,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2025-07-25",
             "level": 0,
@@ -1545,11 +1520,7 @@
             "date": "2025-08-01",
             "level": 0,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2025-08-08",
             "level": 0,
@@ -1574,7 +1545,11 @@
             "date": "2025-09-05",
             "level": 0,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2025-09-12",
             "level": 0,
@@ -1584,11 +1559,7 @@
             "date": "2025-09-19",
             "level": 0,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2025-09-26",
             "level": 0,
@@ -1613,7 +1584,11 @@
             "date": "2025-10-24",
             "level": 0,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2025-10-31",
             "level": 0,
@@ -1623,11 +1598,7 @@
             "date": "2025-11-07",
             "level": 0,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2025-11-14",
             "level": 0,
@@ -1652,7 +1623,11 @@
             "date": "2025-12-12",
             "level": 0,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2025-12-19",
             "level": 0,
@@ -1662,11 +1637,7 @@
             "date": "2025-12-26",
             "level": 1,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2026-01-02",
             "level": 2,
@@ -1691,7 +1662,11 @@
             "date": "2026-01-30",
             "level": 1,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2026-02-06",
             "level": 0,
@@ -1701,11 +1676,7 @@
             "date": "2026-02-13",
             "level": 0,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2026-02-20",
             "level": 1,
@@ -1730,7 +1701,11 @@
             "date": "2026-03-20",
             "level": 1,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2026-03-27",
             "level": 0,
@@ -1740,11 +1715,7 @@
             "date": "2026-04-03",
             "level": 0,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2026-04-10",
             "level": 0,
@@ -1769,7 +1740,11 @@
             "date": "2026-05-08",
             "level": 1,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2026-05-15",
             "level": 4,
@@ -1779,11 +1754,7 @@
             "date": "2026-05-22",
             "level": 1,
             "count": 0
-          }
-        ]
-      },
-      {
-        "contributionDays": [
+          },
           {
             "date": "2026-05-29",
             "level": 1,
@@ -1800,11 +1771,6 @@
             "count": 0
           },
           {
-            "date": "2025-06-14",
-            "level": 0,
-            "count": 0
-          },
-          {
             "date": "2025-06-21",
             "level": 0,
             "count": 0
@@ -1813,16 +1779,16 @@
             "date": "2025-06-28",
             "level": 0,
             "count": 0
-          },
-          {
-            "date": "2025-07-05",
-            "level": 0,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2025-07-05",
+            "level": 0,
+            "count": 0
+          },
           {
             "date": "2025-07-12",
             "level": 0,
@@ -1852,16 +1818,16 @@
             "date": "2025-08-16",
             "level": 0,
             "count": 0
-          },
-          {
-            "date": "2025-08-23",
-            "level": 0,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2025-08-23",
+            "level": 0,
+            "count": 0
+          },
           {
             "date": "2025-08-30",
             "level": 0,
@@ -1891,16 +1857,16 @@
             "date": "2025-10-04",
             "level": 0,
             "count": 0
-          },
-          {
-            "date": "2025-10-11",
-            "level": 0,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2025-10-11",
+            "level": 0,
+            "count": 0
+          },
           {
             "date": "2025-10-18",
             "level": 0,
@@ -1930,16 +1896,16 @@
             "date": "2025-11-22",
             "level": 0,
             "count": 0
-          },
-          {
-            "date": "2025-11-29",
-            "level": 1,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2025-11-29",
+            "level": 1,
+            "count": 0
+          },
           {
             "date": "2025-12-06",
             "level": 0,
@@ -1969,16 +1935,16 @@
             "date": "2026-01-10",
             "level": 0,
             "count": 0
-          },
-          {
-            "date": "2026-01-17",
-            "level": 1,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2026-01-17",
+            "level": 1,
+            "count": 0
+          },
           {
             "date": "2026-01-24",
             "level": 0,
@@ -2008,16 +1974,16 @@
             "date": "2026-02-28",
             "level": 1,
             "count": 0
-          },
-          {
-            "date": "2026-03-07",
-            "level": 0,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2026-03-07",
+            "level": 0,
+            "count": 0
+          },
           {
             "date": "2026-03-14",
             "level": 0,
@@ -2047,16 +2013,16 @@
             "date": "2026-04-18",
             "level": 2,
             "count": 0
-          },
-          {
-            "date": "2026-04-25",
-            "level": 1,
-            "count": 0
           }
         ]
       },
       {
         "contributionDays": [
+          {
+            "date": "2026-04-25",
+            "level": 1,
+            "count": 0
+          },
           {
             "date": "2026-05-02",
             "level": 1,
@@ -2086,7 +2052,11 @@
             "date": "2026-06-06",
             "level": 1,
             "count": 0
-          },
+          }
+        ]
+      },
+      {
+        "contributionDays": [
           {
             "date": "2026-06-13",
             "level": 0,
