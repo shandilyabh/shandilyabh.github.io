@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17 11:47:39",
+  "last_updated": "2026-06-17 15:30:04",
   "tickers": {
     "^NSEI": {
       "price": 24085.7,
@@ -8,39 +8,39 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7511.35,
-      "change": -42.94,
-      "percent_change": -0.57,
+      "price": 7510.68,
+      "change": -2.31,
+      "percent_change": -0.03,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10488.38,
-      "change": -16.09,
-      "percent_change": -0.15,
+      "price": 10491.83,
+      "change": -12.64,
+      "percent_change": -0.12,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 94.5,
-      "change": -0.11,
-      "percent_change": -0.11,
+      "price": 94.51,
+      "change": -0.09,
+      "percent_change": -0.1,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 64807.2,
-      "change": -809.45,
-      "percent_change": -1.23,
+      "price": 65280.47,
+      "change": -336.18,
+      "percent_change": -0.51,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 75.86,
-      "change": 1.06,
-      "percent_change": 1.42,
+      "price": 76.54,
+      "change": 1.74,
+      "percent_change": 2.33,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4345.5,
-      "change": -5.7,
-      "percent_change": -0.13,
+      "price": 4373.6,
+      "change": 22.4,
+      "percent_change": 0.51,
       "currency": "USD"
     }
   },
@@ -947,6 +947,10 @@
       {
         "time": "2026-06-16",
         "value": 7511.35009765625
+      },
+      {
+        "time": "2026-06-17",
+        "value": 7510.830078125
       }
     ],
     "^FTSE": [
@@ -1408,7 +1412,7 @@
       },
       {
         "time": "2026-06-17",
-        "value": 10488.0595703125
+        "value": 10491.7197265625
       }
     ]
   },
@@ -1443,7 +1447,7 @@
           },
           {
             "date": "2026-02-26",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1458,7 +1462,7 @@
           },
           {
             "date": "2026-03-19",
-            "level": 1,
+            "level": 2,
             "count": 0
           }
         ]
@@ -1487,12 +1491,12 @@
           },
           {
             "date": "2026-04-23",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
             "date": "2026-04-30",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1506,22 +1510,22 @@
         "contributionDays": [
           {
             "date": "2026-05-14",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
             "date": "2026-05-21",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
             "date": "2026-05-28",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
             "date": "2026-06-04",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1667,7 +1671,7 @@
           },
           {
             "date": "2025-12-05",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1682,12 +1686,12 @@
           },
           {
             "date": "2025-12-26",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
             "date": "2026-01-02",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
@@ -1731,7 +1735,7 @@
           },
           {
             "date": "2026-02-27",
-            "level": 2,
+            "level": 3,
             "count": 0
           }
         ]
@@ -1750,7 +1754,7 @@
           },
           {
             "date": "2026-03-20",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1779,7 +1783,7 @@
         "contributionDays": [
           {
             "date": "2026-04-24",
-            "level": 2,
+            "level": 4,
             "count": 0
           },
           {
@@ -1789,7 +1793,7 @@
           },
           {
             "date": "2026-05-08",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1804,12 +1808,12 @@
           },
           {
             "date": "2026-05-29",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
             "date": "2026-06-05",
-            "level": 1,
+            "level": 2,
             "count": 0
           }
         ]
@@ -1818,7 +1822,7 @@
         "contributionDays": [
           {
             "date": "2026-06-12",
-            "level": 2,
+            "level": 3,
             "count": 0
           },
           {
@@ -1979,7 +1983,7 @@
           },
           {
             "date": "2026-01-03",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -1999,7 +2003,7 @@
           },
           {
             "date": "2026-01-31",
-            "level": 2,
+            "level": 4,
             "count": 0
           },
           {
@@ -2038,7 +2042,7 @@
           },
           {
             "date": "2026-03-21",
-            "level": 1,
+            "level": 2,
             "count": 0
           },
           {
@@ -2062,7 +2066,7 @@
           },
           {
             "date": "2026-04-18",
-            "level": 2,
+            "level": 4,
             "count": 0
           },
           {
@@ -2082,7 +2086,7 @@
           },
           {
             "date": "2026-05-16",
-            "level": 2,
+            "level": 4,
             "count": 0
           }
         ]
