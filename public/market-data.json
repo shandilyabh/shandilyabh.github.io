@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 07:34:32",
+  "last_updated": "2026-07-26 09:59:06",
   "tickers": {
     "^NSEI": {
       "price": 23767.45,
@@ -26,9 +26,9 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 64304.14,
-      "change": 10.21,
-      "percent_change": 0.02,
+      "price": 64478.08,
+      "change": 184.15,
+      "percent_change": 0.29,
       "currency": "USD"
     },
     "CL=F": {
