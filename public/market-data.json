@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 10:42:27",
+  "last_updated": "2026-07-27 13:39:01",
   "tickers": {
     "^NSEI": {
       "price": 23995.95,
@@ -8,15 +8,15 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7411.98,
-      "change": 3.68,
-      "percent_change": 0.05,
+      "price": 7475.23,
+      "change": 63.25,
+      "percent_change": 0.85,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10786.89,
-      "change": 48.59,
-      "percent_change": 0.45,
+      "price": 10790.94,
+      "change": 52.64,
+      "percent_change": 0.49,
       "currency": "GBP"
     },
     "INR=X": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 65355.54,
-      "change": 19.23,
-      "percent_change": 0.03,
+      "price": 65316.14,
+      "change": -20.17,
+      "percent_change": -0.03,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 83.02,
-      "change": -2.19,
-      "percent_change": -2.57,
+      "price": 84.42,
+      "change": -0.79,
+      "percent_change": -0.93,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4097.6,
-      "change": 5.1,
-      "percent_change": 0.12,
+      "price": 4079.2,
+      "change": -13.3,
+      "percent_change": -0.32,
       "currency": "USD"
     }
   },
@@ -589,10 +589,6 @@
       {
         "time": "2026-07-23",
         "value": 23869.599609375
-      },
-      {
-        "time": "2026-07-24",
-        "value": 23767.44921875
       },
       {
         "time": "2026-07-27",
@@ -1157,8 +1153,8 @@
         "value": 7408.2998046875
       },
       {
-        "time": "2026-07-24",
-        "value": 7411.97998046875
+        "time": "2026-07-27",
+        "value": 7475.5
       }
     ],
     "^FTSE": [
@@ -1727,12 +1723,8 @@
         "value": 10639.2001953125
       },
       {
-        "time": "2026-07-24",
-        "value": 10736.2001953125
-      },
-      {
         "time": "2026-07-27",
-        "value": 10786.75
+        "value": 10790.9404296875
       }
     ]
   },
