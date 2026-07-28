@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 19:22:54",
+  "last_updated": "2026-07-28 21:06:45",
   "tickers": {
     "^NSEI": {
       "price": 23985.35,
@@ -8,9 +8,9 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7441.08,
-      "change": 27.65,
-      "percent_change": 0.37,
+      "price": 7428.78,
+      "change": 15.6,
+      "percent_change": 0.21,
       "currency": "USD"
     },
     "^FTSE": {
@@ -20,27 +20,27 @@
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 95.62,
-      "change": -0.28,
-      "percent_change": -0.29,
+      "price": 95.84,
+      "change": -0.06,
+      "percent_change": -0.06,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 63669.79,
-      "change": -23.78,
-      "percent_change": -0.04,
+      "price": 63866.82,
+      "change": 170.35,
+      "percent_change": 0.27,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 79.09,
-      "change": -2.47,
-      "percent_change": -3.03,
+      "price": 79.16,
+      "change": -2.4,
+      "percent_change": -2.94,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4023.6,
-      "change": -26.0,
-      "percent_change": -0.64,
+      "price": 4028.6,
+      "change": -21.0,
+      "percent_change": -0.52,
       "currency": "USD"
     }
   },
@@ -589,6 +589,10 @@
       {
         "time": "2026-07-23",
         "value": 23869.599609375
+      },
+      {
+        "time": "2026-07-24",
+        "value": 23767.44921875
       },
       {
         "time": "2026-07-27",
@@ -1153,12 +1157,16 @@
         "value": 7408.2998046875
       },
       {
+        "time": "2026-07-24",
+        "value": 7411.97998046875
+      },
+      {
         "time": "2026-07-27",
         "value": 7413.18017578125
       },
       {
         "time": "2026-07-28",
-        "value": 7441.2099609375
+        "value": 7428.77978515625
       }
     ],
     "^FTSE": [
@@ -1725,6 +1733,10 @@
       {
         "time": "2026-07-23",
         "value": 10639.2001953125
+      },
+      {
+        "time": "2026-07-24",
+        "value": 10736.2001953125
       },
       {
         "time": "2026-07-27",
