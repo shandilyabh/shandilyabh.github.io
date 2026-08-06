@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06 15:13:08",
+  "last_updated": "2026-08-06 23:57:43",
   "tickers": {
     "^NSEI": {
       "price": 24636.0,
@@ -8,39 +8,39 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7727.02,
-      "change": 4.9,
-      "percent_change": 0.06,
+      "price": 7709.96,
+      "change": -13.59,
+      "percent_change": -0.18,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10881.53,
-      "change": -13.15,
-      "percent_change": -0.12,
+      "price": 10867.89,
+      "change": -20.41,
+      "percent_change": -0.19,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 95.21,
-      "change": 0.1,
-      "percent_change": 0.11,
+      "price": 95.11,
+      "change": 0.01,
+      "percent_change": 0.01,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 64865.31,
-      "change": 267.45,
-      "percent_change": 0.41,
+      "price": 64256.54,
+      "change": -341.32,
+      "percent_change": -0.53,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 76.68,
-      "change": 1.69,
-      "percent_change": 2.25,
+      "price": 78.08,
+      "change": 3.09,
+      "percent_change": 4.12,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4330.3,
-      "change": 5.4,
-      "percent_change": 0.12,
+      "price": 4306.4,
+      "change": -18.5,
+      "percent_change": -0.43,
       "currency": "USD"
     }
   },
@@ -625,10 +625,6 @@
       {
         "time": "2026-08-05",
         "value": 24624.650390625
-      },
-      {
-        "time": "2026-08-06",
-        "value": 24636.0
       }
     ],
     "^GSPC": [
@@ -1226,7 +1222,7 @@
       },
       {
         "time": "2026-08-06",
-        "value": 7727.27978515625
+        "value": 7709.9599609375
       }
     ],
     "^FTSE": [
@@ -1829,10 +1825,6 @@
       {
         "time": "2026-08-05",
         "value": 10888.2998046875
-      },
-      {
-        "time": "2026-08-06",
-        "value": 10881.4697265625
       }
     ]
   },
