@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-08-19 07:37:14",
+  "last_updated": "2026-08-19 08:36:08",
   "tickers": {
     "^NSEI": {
-      "price": 24057.25,
-      "change": -97.65,
-      "percent_change": -0.4,
+      "price": 24053.25,
+      "change": -101.65,
+      "percent_change": -0.42,
       "currency": "INR"
     },
     "^GSPC": {
@@ -14,9 +14,9 @@
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10728.99,
-      "change": -6.5,
-      "percent_change": -0.06,
+      "price": 10723.03,
+      "change": -12.46,
+      "percent_change": -0.12,
       "currency": "GBP"
     },
     "INR=X": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 64320.01,
-      "change": -361.32,
+      "price": 64319.03,
+      "change": -362.3,
       "percent_change": -0.56,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 84.61,
-      "change": -0.07,
-      "percent_change": -0.08,
+      "price": 84.36,
+      "change": -0.32,
+      "percent_change": -0.38,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4410.3,
-      "change": 1.3,
-      "percent_change": 0.03,
+      "price": 4413.4,
+      "change": 4.4,
+      "percent_change": 0.1,
       "currency": "USD"
     }
   },
@@ -579,6 +579,14 @@
         "value": 24238.5
       },
       {
+        "time": "2026-07-21",
+        "value": 24187.69921875
+      },
+      {
+        "time": "2026-07-22",
+        "value": 23996.25
+      },
+      {
         "time": "2026-07-23",
         "value": 23869.599609375
       },
@@ -601,6 +609,10 @@
       {
         "time": "2026-07-30",
         "value": 24317.150390625
+      },
+      {
+        "time": "2026-07-31",
+        "value": 24383.599609375
       },
       {
         "time": "2026-08-03",
@@ -652,7 +664,7 @@
       },
       {
         "time": "2026-08-19",
-        "value": 24056.849609375
+        "value": 24053.150390625
       }
     ],
     "^GSPC": [
@@ -1900,7 +1912,7 @@
       },
       {
         "time": "2026-08-19",
-        "value": 10728.91015625
+        "value": 10723.0302734375
       }
     ]
   },
