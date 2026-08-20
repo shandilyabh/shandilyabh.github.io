@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 12:47:47",
+  "last_updated": "2026-08-20 13:45:12",
   "tickers": {
     "^NSEI": {
       "price": 24231.85,
@@ -8,15 +8,15 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7707.98,
-      "change": 16.22,
-      "percent_change": 0.21,
+      "price": 7694.84,
+      "change": -13.19,
+      "percent_change": -0.17,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10688.34,
-      "change": -59.01,
-      "percent_change": -0.55,
+      "price": 10712.08,
+      "change": -35.27,
+      "percent_change": -0.33,
       "currency": "GBP"
     },
     "INR=X": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 71535.61,
-      "change": 2235.6,
-      "percent_change": 3.23,
+      "price": 71652.6,
+      "change": 2352.59,
+      "percent_change": 3.39,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 87.45,
-      "change": 2.96,
-      "percent_change": 3.5,
+      "price": 86.75,
+      "change": 2.26,
+      "percent_change": 2.67,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4513.1,
-      "change": -42.6,
-      "percent_change": -0.94,
+      "price": 4529.8,
+      "change": -25.9,
+      "percent_change": -0.57,
       "currency": "USD"
     }
   },
@@ -1279,6 +1279,10 @@
       {
         "time": "2026-08-19",
         "value": 7707.97998046875
+      },
+      {
+        "time": "2026-08-20",
+        "value": 7694.2001953125
       }
     ],
     "^FTSE": [
@@ -1835,6 +1839,14 @@
         "value": 10524.7998046875
       },
       {
+        "time": "2026-07-21",
+        "value": 10585.900390625
+      },
+      {
+        "time": "2026-07-22",
+        "value": 10717.0
+      },
+      {
         "time": "2026-07-23",
         "value": 10639.2001953125
       },
@@ -1857,6 +1869,10 @@
       {
         "time": "2026-07-30",
         "value": 10897.2998046875
+      },
+      {
+        "time": "2026-07-31",
+        "value": 10868.099609375
       },
       {
         "time": "2026-08-03",
@@ -1912,7 +1928,7 @@
       },
       {
         "time": "2026-08-20",
-        "value": 10688.33984375
+        "value": 10712.9697265625
       }
     ]
   },
