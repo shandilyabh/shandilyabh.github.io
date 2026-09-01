@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01 17:38:18",
+  "last_updated": "2026-09-01 20:37:40",
   "tickers": {
     "^NSEI": {
       "price": 24055.8,
@@ -8,9 +8,9 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7635.32,
-      "change": -50.82,
-      "percent_change": -0.66,
+      "price": 7631.47,
+      "change": -54.67,
+      "percent_change": -0.71,
       "currency": "USD"
     },
     "^FTSE": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 77601.94,
-      "change": -960.79,
-      "percent_change": -1.22,
+      "price": 77423.72,
+      "change": -1137.51,
+      "percent_change": -1.45,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 89.58,
-      "change": 2.83,
-      "percent_change": 3.26,
+      "price": 90.69,
+      "change": 3.94,
+      "percent_change": 4.54,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4393.1,
-      "change": -93.9,
-      "percent_change": -2.09,
+      "price": 4375.3,
+      "change": -111.7,
+      "percent_change": -2.49,
       "currency": "USD"
     }
   },
@@ -691,12 +691,12 @@
         "value": 24090.849609375
       },
       {
-        "time": "2026-08-31",
-        "value": 24080.400390625
+        "time": "2026-08-28",
+        "value": 24175.650390625
       },
       {
-        "time": "2026-09-01",
-        "value": 24055.80078125
+        "time": "2026-08-31",
+        "value": 24080.400390625
       }
     ],
     "^GSPC": [
@@ -1357,12 +1357,16 @@
         "value": 7730.990234375
       },
       {
+        "time": "2026-08-28",
+        "value": 7711.759765625
+      },
+      {
         "time": "2026-08-31",
         "value": 7686.14013671875
       },
       {
         "time": "2026-09-01",
-        "value": 7635.06982421875
+        "value": 7631.47021484375
       }
     ],
     "^FTSE": [
@@ -2029,6 +2033,10 @@
       {
         "time": "2026-08-27",
         "value": 10792.5
+      },
+      {
+        "time": "2026-08-28",
+        "value": 10824.2998046875
       },
       {
         "time": "2026-09-01",
