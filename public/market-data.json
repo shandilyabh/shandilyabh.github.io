@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03 11:57:10",
+  "last_updated": "2026-09-03 16:07:40",
   "tickers": {
     "^NSEI": {
       "price": 23873.45,
@@ -8,15 +8,15 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7666.6,
-      "change": 35.13,
-      "percent_change": 0.46,
+      "price": 7742.48,
+      "change": 75.03,
+      "percent_change": 0.98,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10810.49,
-      "change": 48.77,
-      "percent_change": 0.45,
+      "price": 10831.52,
+      "change": 69.8,
+      "percent_change": 0.65,
       "currency": "GBP"
     },
     "INR=X": {
@@ -26,21 +26,21 @@
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 77885.86,
-      "change": 569.76,
-      "percent_change": 0.74,
+      "price": 80909.78,
+      "change": 3602.42,
+      "percent_change": 4.66,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 93.02,
-      "change": 1.96,
-      "percent_change": 2.15,
+      "price": 91.12,
+      "change": 0.06,
+      "percent_change": 0.07,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4484.3,
-      "change": 7.2,
-      "percent_change": 0.16,
+      "price": 4536.0,
+      "change": 58.9,
+      "percent_change": 1.32,
       "currency": "USD"
     }
   },
@@ -1369,6 +1369,10 @@
         "value": 7730.990234375
       },
       {
+        "time": "2026-08-28",
+        "value": 7711.759765625
+      },
+      {
         "time": "2026-08-31",
         "value": 7686.14013671875
       },
@@ -1379,6 +1383,10 @@
       {
         "time": "2026-09-02",
         "value": 7666.60009765625
+      },
+      {
+        "time": "2026-09-03",
+        "value": 7742.85009765625
       }
     ],
     "^FTSE": [
@@ -2047,6 +2055,10 @@
         "value": 10792.5
       },
       {
+        "time": "2026-08-28",
+        "value": 10824.2998046875
+      },
+      {
         "time": "2026-09-01",
         "value": 10789.2998046875
       },
@@ -2056,7 +2068,7 @@
       },
       {
         "time": "2026-09-03",
-        "value": 10810.4404296875
+        "value": 10831.51953125
       }
     ]
   },
