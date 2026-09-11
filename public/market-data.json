@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-11 08:37:21",
+  "last_updated": "2026-09-11 13:16:56",
   "tickers": {
     "^NSEI": {
-      "price": 23418.45,
-      "change": -59.35,
-      "percent_change": -0.25,
+      "price": 23398.1,
+      "change": -79.7,
+      "percent_change": -0.34,
       "currency": "INR"
     },
     "^GSPC": {
@@ -14,33 +14,33 @@
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10625.48,
-      "change": 14.02,
-      "percent_change": 0.13,
+      "price": 10713.19,
+      "change": 101.73,
+      "percent_change": 0.96,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 95.63,
-      "change": 0.19,
-      "percent_change": 0.2,
+      "price": 95.54,
+      "change": 0.1,
+      "percent_change": 0.1,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 77328.9,
-      "change": 796.95,
-      "percent_change": 1.04,
+      "price": 77627.29,
+      "change": 1095.33,
+      "percent_change": 1.43,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 100.51,
-      "change": -2.71,
-      "percent_change": -2.63,
+      "price": 98.77,
+      "change": -4.45,
+      "percent_change": -4.31,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4391.7,
-      "change": 46.7,
-      "percent_change": 1.07,
+      "price": 4429.0,
+      "change": 84.0,
+      "percent_change": 1.93,
       "currency": "USD"
     }
   },
@@ -732,7 +732,7 @@
       },
       {
         "time": "2026-09-11",
-        "value": 23416.69921875
+        "value": 23398.099609375
       }
     ],
     "^GSPC": [
@@ -2132,7 +2132,7 @@
       },
       {
         "time": "2026-09-11",
-        "value": 10625.33984375
+        "value": 10713.650390625
       }
     ]
   },
@@ -2440,7 +2440,7 @@
           },
           {
             "date": "2026-04-24",
-            "level": 3,
+            "level": 2,
             "count": 0
           },
           {
@@ -2474,7 +2474,7 @@
           },
           {
             "date": "2026-06-05",
-            "level": 3,
+            "level": 4,
             "count": 0
           },
           {
@@ -2708,7 +2708,7 @@
           },
           {
             "date": "2026-03-21",
-            "level": 2,
+            "level": 1,
             "count": 0
           },
           {
