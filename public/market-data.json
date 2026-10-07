@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-10-07 09:53:29",
+  "last_updated": "2026-10-07 17:17:39",
   "tickers": {
     "^NSEI": {
-      "price": 22615.45,
-      "change": -160.65,
-      "percent_change": -0.71,
+      "price": 22603.05,
+      "change": -173.05,
+      "percent_change": -0.76,
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7818.93,
-      "change": 44.98,
-      "percent_change": 0.58,
+      "price": 7798.87,
+      "change": -20.96,
+      "percent_change": -0.27,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10499.53,
-      "change": -44.01,
-      "percent_change": -0.42,
+      "price": 10458.5,
+      "change": -83.19,
+      "percent_change": -0.79,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 96.75,
-      "change": 0.39,
-      "percent_change": 0.41,
+      "price": 96.76,
+      "change": 0.4,
+      "percent_change": 0.42,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 83752.08,
-      "change": -1795.7,
-      "percent_change": -2.1,
+      "price": 83425.81,
+      "change": -2121.96,
+      "percent_change": -2.48,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 89.81,
-      "change": -0.4,
-      "percent_change": -0.44,
+      "price": 88.55,
+      "change": -1.66,
+      "percent_change": -1.84,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4144.4,
-      "change": -25.9,
-      "percent_change": -0.62,
+      "price": 4140.2,
+      "change": -30.1,
+      "percent_change": -0.72,
       "currency": "USD"
     }
   },
@@ -796,7 +796,7 @@
       },
       {
         "time": "2026-10-07",
-        "value": 22615.44921875
+        "value": 22603.05078125
       }
     ],
     "^GSPC": [
@@ -1563,6 +1563,10 @@
       {
         "time": "2026-10-06",
         "value": 7818.93017578125
+      },
+      {
+        "time": "2026-10-07",
+        "value": 7799.2001953125
       }
     ],
     "^FTSE": [
@@ -2340,7 +2344,7 @@
       },
       {
         "time": "2026-10-07",
-        "value": 10499.4501953125
+        "value": 10458.5
       }
     ]
   },
