@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-10-30 08:07:15",
+  "last_updated": "2026-10-30 15:34:55",
   "tickers": {
     "^NSEI": {
-      "price": 23051.75,
-      "change": 115.0,
-      "percent_change": 0.5,
+      "price": 23053.1,
+      "change": 116.35,
+      "percent_change": 0.51,
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7720.39,
-      "change": -27.64,
-      "percent_change": -0.36,
+      "price": 7604.69,
+      "change": -116.33,
+      "percent_change": -1.51,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10722.07,
-      "change": 30.62,
-      "percent_change": 0.29,
+      "price": 10736.29,
+      "change": 10.63,
+      "percent_change": 0.1,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 95.04,
-      "change": -0.17,
-      "percent_change": -0.18,
+      "price": 94.94,
+      "change": -0.27,
+      "percent_change": -0.28,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 77912.66,
-      "change": 124.55,
-      "percent_change": 0.16,
+      "price": 77259.29,
+      "change": -528.82,
+      "percent_change": -0.68,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 103.85,
-      "change": 0.68,
-      "percent_change": 0.66,
+      "price": 104.14,
+      "change": 0.97,
+      "percent_change": 0.94,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 3979.8,
-      "change": -27.7,
-      "percent_change": -0.69,
+      "price": 3920.0,
+      "change": -84.0,
+      "percent_change": -2.1,
       "currency": "USD"
     }
   },
@@ -860,7 +860,7 @@
       },
       {
         "time": "2026-10-30",
-        "value": 23051.80078125
+        "value": 23053.099609375
       }
     ],
     "^GSPC": [
@@ -1695,6 +1695,10 @@
       {
         "time": "2026-10-29",
         "value": 7720.39013671875
+      },
+      {
+        "time": "2026-10-30",
+        "value": 7604.7001953125
       }
     ],
     "^FTSE": [
@@ -2537,6 +2541,10 @@
       {
         "time": "2026-10-29",
         "value": 10722.099609375
+      },
+      {
+        "time": "2026-10-30",
+        "value": 10736.2998046875
       }
     ]
   },
