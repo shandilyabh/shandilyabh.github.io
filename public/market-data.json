@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-11-09 09:12:37",
+  "last_updated": "2026-11-09 20:26:56",
   "tickers": {
     "^NSEI": {
-      "price": 25000.55,
-      "change": -29.8,
-      "percent_change": -0.12,
-      "currency": "INR"
-    },
-    "^GSPC": {
-      "price": 7376.86,
-      "change": 20.13,
-      "percent_change": 0.27,
-      "currency": "USD"
-    },
-    "^FTSE": {
-      "price": 10726.16,
-      "change": 55.89,
-      "percent_change": 0.52,
-      "currency": "GBP"
-    },
-    "INR=X": {
-      "price": 93.95,
-      "change": 0.06,
+      "price": 25044.65,
+      "change": 14.3,
       "percent_change": 0.06,
       "currency": "INR"
     },
+    "^GSPC": {
+      "price": 7574.77,
+      "change": 199.92,
+      "percent_change": 2.71,
+      "currency": "USD"
+    },
+    "^FTSE": {
+      "price": 10782.87,
+      "change": 112.6,
+      "percent_change": 1.06,
+      "currency": "GBP"
+    },
+    "INR=X": {
+      "price": 93.92,
+      "change": 0.03,
+      "percent_change": 0.03,
+      "currency": "INR"
+    },
     "BTC-USD": {
-      "price": 74337.69,
-      "change": -387.24,
-      "percent_change": -0.52,
+      "price": 74693.87,
+      "change": -31.06,
+      "percent_change": -0.04,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 89.75,
-      "change": -1.56,
-      "percent_change": -1.71,
+      "price": 86.12,
+      "change": -5.19,
+      "percent_change": -5.68,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 4105.0,
-      "change": -28.3,
-      "percent_change": -0.68,
+      "price": 4152.9,
+      "change": 19.6,
+      "percent_change": 0.47,
       "currency": "USD"
     }
   },
@@ -881,10 +881,6 @@
       {
         "time": "2026-11-06",
         "value": 25030.349609375
-      },
-      {
-        "time": "2026-11-09",
-        "value": 25000.0
       }
     ],
     "^GSPC": [
@@ -1743,6 +1739,10 @@
       {
         "time": "2026-11-06",
         "value": 7376.85986328125
+      },
+      {
+        "time": "2026-11-09",
+        "value": 7575.509765625
       }
     ],
     "^FTSE": [
@@ -2612,7 +2612,7 @@
       },
       {
         "time": "2026-11-09",
-        "value": 10727.0498046875
+        "value": 10782.8701171875
       }
     ]
   },
