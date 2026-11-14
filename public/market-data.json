@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13 18:23:52",
+  "last_updated": "2026-11-14 00:12:02",
   "tickers": {
     "^NSEI": {
       "price": 25144.3,
@@ -8,9 +8,9 @@
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7536.12,
-      "change": -55.74,
-      "percent_change": -0.73,
+      "price": 7561.67,
+      "change": -30.19,
+      "percent_change": -0.4,
       "currency": "USD"
     },
     "^FTSE": {
@@ -20,27 +20,27 @@
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 94.23,
-      "change": 0.19,
-      "percent_change": 0.2,
+      "price": 94.03,
+      "change": -0.01,
+      "percent_change": -0.01,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 68821.84,
-      "change": -2548.05,
-      "percent_change": -3.57,
+      "price": 68336.64,
+      "change": 260.16,
+      "percent_change": 0.38,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 88.76,
-      "change": 0.51,
-      "percent_change": 0.58,
+      "price": 88.92,
+      "change": 0.67,
+      "percent_change": 0.76,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 3887.3,
-      "change": -29.8,
-      "percent_change": -0.76,
+      "price": 3887.6,
+      "change": -29.5,
+      "percent_change": -0.75,
       "currency": "USD"
     }
   },
@@ -893,10 +893,6 @@
       {
         "time": "2026-11-12",
         "value": 25299.349609375
-      },
-      {
-        "time": "2026-11-13",
-        "value": 25144.30078125
       }
     ],
     "^GSPC": [
@@ -1774,7 +1770,7 @@
       },
       {
         "time": "2026-11-13",
-        "value": 7536.33984375
+        "value": 7561.669921875
       }
     ],
     "^FTSE": [
@@ -2657,10 +2653,6 @@
       {
         "time": "2026-11-12",
         "value": 10863.099609375
-      },
-      {
-        "time": "2026-11-13",
-        "value": 10902.5595703125
       }
     ]
   },
@@ -3368,6 +3360,11 @@
           },
           {
             "date": "2026-11-07",
+            "level": 0,
+            "count": 0
+          },
+          {
+            "date": "2026-11-14",
             "level": 0,
             "count": 0
           }
