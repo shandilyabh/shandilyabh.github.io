@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-11-17 06:48:08",
+  "last_updated": "2026-11-17 16:42:21",
   "tickers": {
     "^NSEI": {
-      "price": 25490.2,
-      "change": 199.1,
-      "percent_change": 0.79,
+      "price": 25387.4,
+      "change": 96.3,
+      "percent_change": 0.38,
       "currency": "INR"
     },
     "^GSPC": {
-      "price": 7416.59,
-      "change": -144.28,
-      "percent_change": -1.91,
+      "price": 7318.3,
+      "change": -101.89,
+      "percent_change": -1.37,
       "currency": "USD"
     },
     "^FTSE": {
-      "price": 10881.6,
-      "change": -25.81,
-      "percent_change": -0.24,
+      "price": 10695.64,
+      "change": -197.29,
+      "percent_change": -1.81,
       "currency": "GBP"
     },
     "INR=X": {
-      "price": 93.56,
-      "change": -0.35,
-      "percent_change": -0.37,
+      "price": 93.46,
+      "change": -0.45,
+      "percent_change": -0.48,
       "currency": "INR"
     },
     "BTC-USD": {
-      "price": 64353.18,
-      "change": -463.61,
-      "percent_change": -0.72,
+      "price": 63725.31,
+      "change": -1091.48,
+      "percent_change": -1.68,
       "currency": "USD"
     },
     "CL=F": {
-      "price": 85.14,
-      "change": 0.13,
-      "percent_change": 0.15,
+      "price": 86.58,
+      "change": 1.57,
+      "percent_change": 1.85,
       "currency": "USD"
     },
     "GC=F": {
-      "price": 3877.5,
-      "change": -0.5,
-      "percent_change": -0.01,
+      "price": 3870.4,
+      "change": -6.8,
+      "percent_change": -0.18,
       "currency": "USD"
     }
   },
@@ -904,7 +904,7 @@
       },
       {
         "time": "2026-11-17",
-        "value": 25491.5
+        "value": 25387.400390625
       }
     ],
     "^GSPC": [
@@ -1787,6 +1787,10 @@
       {
         "time": "2026-11-16",
         "value": 7416.58984375
+      },
+      {
+        "time": "2026-11-17",
+        "value": 7318.1298828125
       }
     ],
     "^FTSE": [
@@ -2677,6 +2681,10 @@
       {
         "time": "2026-11-16",
         "value": 10881.599609375
+      },
+      {
+        "time": "2026-11-17",
+        "value": 10696.0498046875
       }
     ]
   },
